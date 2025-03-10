@@ -1,5 +1,40 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Google Sans Mono";
+  src: url("/fonts/Google-Sans-Mono-Regular.ttf") format("truetype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Google Sans Mono";
+  src: url("/fonts/Google-Sans-Mono-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Google Sans Mono";
+  src: url("/fonts/Google-Sans-Mono-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* SemiBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Google Sans Mono";
+  src: url("/fonts/Google-Sans-Mono-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Google Sans Display";
+  src: url("/fonts/Google-Sans-Display-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @plugin "tailwindcss-animate";
 
 @custom-variant dark (&:is(.dark *));
@@ -38,6 +73,23 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  /* Design System */
+  --color-blue: rgba(66, 133, 244, 1);
+  --color-halftone-blue: rgba(87, 202, 255, 1);
+  --color-shadow-blue: rgba(68, 111, 184, 1);
+  --color-green: rgba(52, 168, 83, 1);
+  --color-halftone-green: rgba(92, 219, 109, 1);
+  --color-shadow-green: rgba(46, 112, 64, 1);
+  --color-yellow: rgba(249, 171, 0, 1);
+  --color-halftone-yellow: rgba(255, 212, 39, 1);
+  --color-shadow-yellow: rgba(178, 128, 18, 1);
+  --color-red: rgba(234, 67, 53, 1);
+  --color-halftone-red: rgba(255, 125, 175, 1);
+  --color-shadow-red: rgba(168, 64, 56, 1);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-grey: rgba(95, 99, 104, 1);
+  --color-grey-100: rgba(241, 243, 244, 1);
 }
 
 .dark {
@@ -112,6 +164,8 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --font-mono: "Google Sans Mono", sans-serif;
+  --font-display: "Google Sans Display", sans-serif;
 }
 
 @layer base {
