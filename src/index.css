@@ -176,3 +176,43 @@
     @apply bg-background text-foreground;
   }
 }
+
+.header {
+  @apply text-[9.123rem] leading-[5.7rem] font-bold font-mono;
+}
+
+.header2 {
+  @apply text-[4.375rem] leading-[5rem] font-semibold font-display;
+}
+
+.title1 {
+  @apply text-[2.826rem] leading-[3.75rem] font-bold font-mono;
+}
+
+.title2 {
+  @apply text-[2.499rem] leading-[2.5rem] font-semibold font-mono;
+}
+
+.body1 {
+  @apply text-[1.5rem] leading-[2.5rem] font-medium font-mono;
+}
+
+.body2 {
+  @apply text-[1.1875rem] leading-[1.25rem] font-medium font-mono;
+}
+
+.small1 {
+  @apply text-[1rem] leading-[1.25rem] font-normal font-mono;
+}
+
+.small2 {
+  @apply text-[0.821rem] leading-[1.25rem] font-normal font-mono;
+}
+
+.button1 {
+  @apply text-[1.1875rem] leading-[1.25rem] font-semibold font-mono;
+}
+
+.button2 {
+  @apply text-[1rem] leading-[1.25rem] font-normal font-mono;
+}
