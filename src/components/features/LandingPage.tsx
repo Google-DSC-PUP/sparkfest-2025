@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { RetroGrid } from "@/components/magicui/retro-grid";
 import { NumberTicker } from "@/components/magicui/number-ticker";
 import SparkyImage from "@/assets/sparky-image.png";
+import LandingPageImage from "@/assets/landing-page-image.png";
 
 export default function LandingPage() {
   const targetDate = new Date("2025-04-10");
@@ -23,10 +24,13 @@ export default function LandingPage() {
   const daysArray = String(daysRemaining).padStart(2, "0").split("");
 
   return (
-    <div className="relative flex w-full flex-col md:flex-row items-center justify-center lg:justify-around min-h-screen">
+    <div
+      className="relative flex w-full flex-col md:flex-row items-center justify-center lg:justify-around min-h-screen bg-cover bg-center"
+      style={{ backgroundImage: `url(${LandingPageImage})` }}
+    >
       {/* Left side with mascot */}
       <div className="w-fit flex justify-center md:justify-start z-10">
-        <img src={SparkyImage} className=" " />
+        <img src={SparkyImage} alt="sparky image" />
       </div>
 
       {/* Right side with countdown and text */}
