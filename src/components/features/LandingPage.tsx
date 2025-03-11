@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { RetroGrid } from "@/components/magicui/retro-grid";
+import { NumberTicker } from "@/components/magicui/number-ticker";
 
 export default function LandingPage() {
   const targetDate = new Date("2025-04-10");
@@ -39,13 +40,19 @@ export default function LandingPage() {
 
         {/* Right side with countdown and text */}
         <div className="flex w-full md:w-2/3 flex-col items-center space-y-2 sm:space-y-3 md:space-y-4 text-white">
-          {/* Countdown boxes */}
-          <div className="flex items-center justify-center gap-4 cursor-pointer">
-            <div className="flex h-80 px-4 items-center justify-center rounded-[64px] border-2 border-white/70 hover:bg-blue text-[21.056rem] font-mono font-bold backdrop-blur-sm">
-              {daysArray[0]}
+          {/* Countdown boxes with NumberTicker */}
+          <div className="flex items-center justify-center gap-4 cursor-pointer ">
+            <div className="flex h-80 px-4 items-center justify-center rounded-[64px] border-2 border-white/70 hover:bg-blue text-[21.056rem] font-mono font-bold backdrop-blur-sm ">
+              <NumberTicker
+                className="text-white"
+                value={parseInt(daysArray[0])}
+              />
             </div>
             <div className="flex h-80 px-4 items-center justify-center rounded-[64px] border-2 border-white/70 hover:bg-yellow text-[21.056rem] font-mono font-bold backdrop-blur-sm">
-              {daysArray[1]}
+              <NumberTicker
+                className="text-white"
+                value={parseInt(daysArray[1])}
+              />
             </div>
           </div>
 
