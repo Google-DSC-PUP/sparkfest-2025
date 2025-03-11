@@ -180,11 +180,11 @@
 }
 
 .header {
-  @apply text-4xl sm:text-6xl md:text-8xl lg:text-[9.123rem] leading-tight font-bold font-mono;
+  @apply text-[3.5rem] sm:text-[5rem] md:text-[6rem] xl:text-[9.123rem] leading-tight font-bold font-mono;
 }
 
 .header2 {
-  @apply text-2xl sm:text-3xl md:text-4xl lg:text-[4.375rem] leading-tight font-semibold font-display;
+  @apply text-3xl sm:text-4xl md:text-5xl xl:text-[4.375rem] leading-tight font-semibold font-display;
 }
 
 .title1 {
@@ -192,7 +192,7 @@
 }
 
 .title2 {
-  @apply text-lg sm:text-xl md:text-2xl lg:text-[2.499rem] leading-tight font-semibold font-mono;
+  @apply text-lg sm:text-xl md:text-2xl xl:text-[2.499rem] leading-tight font-semibold font-mono;
 }
 
 .body1 {
