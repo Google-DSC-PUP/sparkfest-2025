@@ -30,6 +30,7 @@ interface RetroGridProps extends React.HTMLAttributes<HTMLDivElement> {
    * @default "gray"
    */
   darkLineColor?: string;
+  lineThickness?: number;
 }
 
 export function RetroGrid({
@@ -39,6 +40,7 @@ export function RetroGrid({
   opacity = 0.5,
   lightLineColor = "gray",
   darkLineColor = "gray",
+  lineThickness = 1,
   ...props
 }: RetroGridProps) {
   const gridStyles = {
@@ -47,6 +49,7 @@ export function RetroGrid({
     "--opacity": opacity,
     "--light-line": lightLineColor,
     "--dark-line": darkLineColor,
+    "--line-thickness": `${lineThickness}px`, // Ensuring thickness is properly defined
   } as React.CSSProperties;
 
   return (
@@ -54,16 +57,25 @@ export function RetroGrid({
       className={cn(
         "pointer-events-none absolute size-full overflow-hidden [perspective:200px]",
         `opacity-[var(--opacity)]`,
-        className,
+        className
       )}
       style={gridStyles}
       {...props}
     >
       <div className="absolute inset-0 [transform:rotateX(var(--grid-angle))]">
-        <div className="animate-grid [background-image:linear-gradient(to_right,var(--light-line)_1px,transparent_0),linear-gradient(to_bottom,var(--light-line)_1px,transparent_0)] [background-repeat:repeat] [background-size:var(--cell-size)_var(--cell-size)] [height:300vh] [inset:0%_0px] [margin-left:-200%] [transform-origin:100%_0_0] [width:600vw] dark:[background-image:linear-gradient(to_right,var(--dark-line)_1px,transparent_0),linear-gradient(to_bottom,var(--dark-line)_1px,transparent_0)]" />
+        <div
+          style={{
+            backgroundImage: `
+              linear-gradient(to right, var(--light-line) var(--line-thickness), transparent 0), 
+              linear-gradient(to bottom, var(--light-line) var(--line-thickness), transparent 0)
+            `,
+          }}
+          className="animate-grid [background-repeat:repeat] [background-size:var(--cell-size)_var(--cell-size)] 
+                     [height:300vh] [inset:0%_0px] [margin-left:-200%] [transform-origin:100%_0_0] [width:600vw]"
+        />
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent to-90% dark:from-black" />
+      {/* <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent to-90% dark:from-black" /> */}
     </div>
   );
 }
