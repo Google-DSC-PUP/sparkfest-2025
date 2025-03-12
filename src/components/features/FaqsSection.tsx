@@ -78,7 +78,7 @@ function FaqsSection() {
                         <div className="rounded-lg p-px bg-white bg-gradient-to-b from-halftone-blue to-shadow-blue">
                             <AccordionItem
                                 value={`item-${index}`}
-                                className={`rounded-lg p-5 ${activeIndices.includes(index) ? 'bg-shadow-blue' : 'bg-blue-500'} space-y-4`}>
+                                className={`rounded-lg p-5 ${activeIndices.includes(index) ? 'bg-shadow-blue space-y-4' : 'bg-blue-500'}`}>
                                 <AccordionTrigger className="cursor-pointer" onClick={() => handleToggle(index)}>
                                     {faq.question}
                                 </AccordionTrigger>
