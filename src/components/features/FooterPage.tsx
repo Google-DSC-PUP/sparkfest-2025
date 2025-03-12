@@ -3,10 +3,10 @@ import SocMedIcon from "../ui/SocMedIcon";
 
 const FooterPage = () => {
   return (
-    <footer className="h-[679px] lg:h-auto bg-[url('/images/footer-bg.png')] bg-cover bg-center w-full px-5 lg:px-20 flex flex-col">
+    <footer className="h-auto bg-[url('/images/footer-bg.png')] bg-cover bg-center w-full px-5 lg:px-20 flex flex-col">
       {/* See you there Content */}
       <div className="hidden lg:flex items-center justify-center my-[144px]">
-        <h1 className="text-gray-100 text-9xl text-center font-bold font-['Google_Sans_Mono']">
+        <h1 className="text-gray-100 text-center font-bold font-mono whitespace-nowrap text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
           SEE YOU THERE!
         </h1>
       </div>
