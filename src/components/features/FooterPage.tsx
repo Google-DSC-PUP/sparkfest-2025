@@ -18,13 +18,13 @@ const FooterPage = () => {
           <img
             src="https://s3-alpha-sig.figma.com/img/9a68/a928/2b2817543974e43f9c153b4b761bd5b1?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PNGlFvDQKPwZzaQxZSp6mAANopv85Pg1wQR44XmlJQcjFgH0VJkznTbGtGjAQjH5Kx0-J6-rs0cqKbPOXcKc59u6MGD9b3W2L5zCuJaDysrjlCf5xf1kNOjXqwc6KkzXI545ktl0I4-CQvcwA6gIv49EnSaLjr0dNwMxZ05kEziB1K2vRRj83N3fRcYivG9Xw45YYADYzX-BfyIT1q3CgFS7JHAAdsgFk5qV6ldD1nJYIPrUMLn6zzGTI1IBUXaNW7D05V0x37NoEUnMilxrmn30Fc7BxMnwPiFFh7HMexcO~58qaRk~J1WbH545EnqV5OY6F5w~-ofMnP9dDUJM4g__"
             alt="Sparkfest Logo"
-            className="h-20 lg:h-28 mb-5 lg:mb-10"
+            className="w-[260px] lg:[360px] mb-5 lg:mb-10"
           />
 
           <img
             src="https://s3-alpha-sig.figma.com/img/0aa6/6ad0/c2f1a50400dc518367bc1479cee187d9?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dzeofFozgFpwZ9~47NUveceG2AwmOCd5haXLbQeWE70umkngltTBOPH43Cm0~DqEJ9xvB0FHk9em6P~SmE8hfXRp2Y1P1KVxxFkQSDc1S3UyLYa-lNKxnLMo~ULoH9o4abviofOY1UJHRgUwAgvYePfU5quA0XnZWaogtc6HuSTBNrht0gqdv79t6-NaHMFowLC~knhoz08OX936CJtTC4OSR0YuJwHK1uIR7OME6rYbuP~tvgk5S8n0YpH7xQZ35kLO4vudSUFBI~5RdAUTxjtMh~gNNwI8zWOKF8vLmyyghLX5JLeM2d-PnGkA6A80AW1K7Jk8XkcMcLIyNs8FoQ__"
             alt="GDG Logo"
-            className="h-[30px] lg:h-10 mb-2 lg:mb-7"
+            className="w-[260px] lg:[360px] mb-2 lg:mb-7"
           />
 
           <small className="text-[0.5625rem] lg:text-[0.821rem] leading-[1.25rem] font-normal font-mono text-gray-100 mb-5 lg:mb-9 ">
