@@ -1,6 +1,5 @@
-import LandingPage from "./components/features/LandingPage";
-import { Button } from "@/components/ui/button";
-import Location from "./components/features/Location";
+import LandingPage from "@/components/features/LandingPage";
+import Location from "@/components/features/Location";
 
 function App() {
   return (
