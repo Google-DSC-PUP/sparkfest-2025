@@ -34,15 +34,21 @@ const Location = () => {
           <iframe
             title="Location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.045749749116!2d121.0080721764348!3d14.596468977175125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9dd56183c45%3A0x9f3cd2bc8713cb09!2sPUP%20Claro%20M.%20Recto%20Hall!5e0!3m2!1sen!2sph!4v1741669752681!5m2!1sen!2sph"
-            width="100%"
-            height="500"
-            className=" "
+            className="w-full h-full min-h-[350px]  "
           ></iframe>
+          <div className="p-3  w-full flex justify-center items-center">
+            <img
+              src="src\assets\Sparkfest-Screen.png"
+              alt="Sparkfest Logo"
+              className="w-full max-w-[100px] sm:max-w-[150px]"
+            ></img>
+          </div>
         </div>
-        <div className="-mt-8 z-10">
+
+        <div className="-mt-14 sm:-mt-16 md:-mt-18  z-10">
           <img
             src="src\assets\Joystick-Buttons.png"
-            alt="Lower Part"
+            alt="Joystick Buttons"
             className="w-full"
           ></img>
           <div className="bg-black w-full text-white py-6 px-2 flex flex-col justify-center items-center">
