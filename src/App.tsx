@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import FooterPage from "./components/features/FooterPage";
 
 function App() {
   return (
     <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
+      <FooterPage />
     </div>
   );
 }
