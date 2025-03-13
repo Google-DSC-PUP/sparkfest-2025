@@ -218,3 +218,15 @@
 .button2 {
   @apply text-[1rem] leading-[1.25rem] font-normal font-mono;
 }
+
+.custom-gradient-about-2 {
+  background: linear-gradient(
+    to bottom,
+    #cc228d 0%,
+    #cc228d 65%,
+    #cc228d 76%,
+    #cc228d 81%,
+    #df657c 100%,
+    #df657c 100%
+  );
+}
