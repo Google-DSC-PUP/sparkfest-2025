@@ -13,7 +13,7 @@ const HackathonKit = () => {
             </div>
             <div className="w-[50vw] flex justify-center align-center height-[80vh] ">
                 <div className="w-[90%] h-[100vh] flex justify-center align-center">
-                    <img src="src/assets/Artboard 1 1.png" className="aspect-square w-[45vw] h-[45vw] self-center rounded-"></img>
+                    <img src="src/assets/Artboard 1 1.png" className="aspect-square w-[45vw] h-[45vw] self-center rounded-[20px] border-solid border-white border-[5px]"></img>
                 </div>
             </div>
         </div>
