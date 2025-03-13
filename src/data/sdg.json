@@ -3,103 +3,103 @@
     {
       "goal": "NO POVERTY",
       "number": 1,
-      "image": "sdg1.svg",
+      "image": "/svgs/svg1.svg",
       "description": "End poverty in all its forms everywhere."
     },
     {
       "goal": "ZERO HUNGER",
       "number": 2,
-      "image": "sdg2.svg",
+      "image": "/svgs/svg2.svg",
       "description": "End hunger, achieve food security and improved nutrition, and promote sustainable agriculture."
     },
     {
       "goal": "GOOD HEALTH AND WELL-BEING",
       "number": 3,
-      "image": "sdg3.svg",
+      "image": "/svgs/svg3.svg",
       "description": "Ensure healthy lives and promote well-being for all at all ages."
     },
     {
       "goal": "QUALITY EDUCATION",
       "number": 4,
-      "image": "sdg4.svg",
+      "image": "/svgs/svg4.svg",
       "description": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."
     },
     {
       "goal": "GENDER EQUALITY",
       "number": 5,
-      "image": "sdg5.svg",
+      "image": "/svgs/svg5.svg",
       "description": "Achieve gender equality and empower all women and girls."
     },
     {
       "goal": "CLEAN WATER AND SANITATION",
       "number": 6,
-      "image": "sdg6.svg",
+      "image": "/svgs/svg6.svg",
       "description": "Ensure availability and sustainable management of water and sanitation for all."
     },
     {
       "goal": "AFFORDABLE AND CLEAN ENERGY",
       "number": 7,
-      "image": "sdg7.svg",
+      "image": "/svgs/svg7.svg",
       "description": "Ensure access to affordable, reliable, sustainable, and modern energy for all."
     },
     {
       "goal": "DECENT WORK AND ECONOMIC GROWTH",
       "number": 8,
-      "image": "sdg8.svg",
+      "image": "/svgs/svg8.svg",
       "description": "Promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all."
     },
     {
       "goal": "INDUSTRY, INNOVATION, AND INFRASTRUCTURE",
       "number": 9,
-      "image": "sdg9.svg",
+      "image": "/svgs/svg9.svg",
       "description": "Build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation."
     },
     {
       "goal": "REDUCED INEQUALITY",
       "number": 10,
-      "image": "sdg10.svg",
+      "image": "/svgs/svg10.svg",
       "description": "Reduce inequality within and among countries."
     },
     {
       "goal": "SUSTAINABLE CITIES AND COMMUNITIES",
       "number": 11,
-      "image": "sdg11.svg",
+      "image": "/svgs/svg11.svg",
       "description": "Make cities and human settlements inclusive, safe, resilient, and sustainable."
     },
     {
       "goal": "RESPONSIBLE CONSUMPTION AND PRODUCTION",
       "number": 12,
-      "image": "sdg12.svg",
+      "image": "/svgs/svg12.svg",
       "description": "Ensure sustainable consumption and production patterns."
     },
     {
       "goal": "CLIMATE ACTION",
       "number": 13,
-      "image": "sdg13.svg",
+      "image": "/svgs/svg13.svg",
       "description": "Take urgent action to combat climate change and its impacts."
     },
     {
       "goal": "LIFE BELOW WATER",
       "number": 14,
-      "image": "sdg14.svg",
+      "image": "/svgs/svg14.svg",
       "description": "Conserve and sustainably use the oceans, seas, and marine resources for sustainable development."
     },
     {
       "goal": "LIFE ON LAND",
       "number": 15,
-      "image": "sdg15.svg",
+      "image": "/svgs/svg15.svg",
       "description": "Protect, restore, and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss."
     },
     {
       "goal": "PEACE, JUSTICE, AND STRONG INSTITUTIONS",
       "number": 16,
-      "image": "sdg16.svg",
+      "image": "/svgs/svg16.svg",
       "description": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all, and build effective, accountable, and inclusive institutions at all levels."
     },
     {
       "goal": "PARTNERSHIPS FOR THE GOALS",
       "number": 17,
-      "image": "sdg17.svg",
+      "image": "/svgs/svg17.svg",
       "description": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development."
     }
   ]
