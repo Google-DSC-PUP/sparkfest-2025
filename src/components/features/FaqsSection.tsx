@@ -80,14 +80,30 @@ function FaqsSection() {
 
     return (
         <div className="w-full p-5 md:p-20 bg-gray-800">
-            {/* Header */}
-            <div className="flex flex-row items-center justify-center mb-14">
-            <img src={RenderedV3Svg2} alt="rendered v3" className="" />
-            <h1 className="header2 text-grey-100 [text-shadow:_0px_4px_4px_rgb(168_64_56_/_1.00)] text-center mx-4">
-                FREQUENTLY ASKED QUESTIONS
-            </h1>
-            <img src={RenderedV3Svg1} alt="rendered v3" className="" />
-        </div>
+            {/* Medium to Large Screen Header */}
+            <div className="hidden md:flex flex-row items-center justify-center mb-14">
+                <img src={RenderedV3Svg2} alt="rendered v3" className="size-32" />
+                <h1 className="header2 text-grey-100 [text-shadow:_0px_4px_4px_rgb(168_64_56_/_1.00)] text-center">
+                    FREQUENTLY ASKED QUESTIONS
+                </h1>
+                <img src={RenderedV3Svg1} alt="rendered v3" className="size-32" />
+            </div>
+
+            {/* Small Screen */}
+            <div className="flex flex-col items-center justify-center mb-12 md:hidden">
+                <h1 className="font-mono font-bold text-4xl text-grey-100 [text-shadow:_0px_4px_4px_rgb(168_64_56_/_1.00)] text-center">
+                    FREQUENTLY ASKED
+                </h1>
+                <div className="flex justify-center items-center m-[-15px]">
+                    <span>
+                        <img src={RenderedV3Svg2} alt="rendered v3" className="size-20" />
+                    </span>
+                    <span className="font-mono font-bold text-4xl text-grey-100 [text-shadow:_0px_4px_4px_rgb(168_64_56_/_1.00)]">QUESTIONS</span>
+                    <span>
+                        <img src={RenderedV3Svg1} alt="rendered v3" className="size-20" />
+                    </span>
+                </div>
+            </div>
 
             {/* Container for Faqs */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10">
