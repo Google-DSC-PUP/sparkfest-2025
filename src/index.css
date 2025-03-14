@@ -246,3 +246,31 @@
     #1a3a68 100%
   );
 }
+
+/* accordion animation */
+.data-\[state\=open\]\:animate-accordion-down, 
+.data-\[state\=closed\]\:animate-accordion-up {
+  animation-duration: 100ms !important;
+}
+
+@keyframes my-accordion-down {
+  from { height: 0 }
+  to { height: var(--radix-accordion-content-height) }
+}
+
+@keyframes my-accordion-up {
+  from { height: var(--radix-accordion-content-height) }
+  to { height: 0 }
+}
+
+.my-accordion-content {
+  overflow: hidden;
+}
+
+.my-accordion-content[data-state="open"] {
+  animation: my-accordion-down 200ms ease-out;
+}
+
+.my-accordion-content[data-state="closed"] {
+  animation: my-accordion-up 200ms ease-out;
+}
