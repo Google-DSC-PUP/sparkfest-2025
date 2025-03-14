@@ -180,11 +180,11 @@
 }
 
 .header {
-  @apply text-[9.123rem] leading-[5.7rem] font-bold font-mono;
+  @apply text-[3.5rem] sm:text-[5rem] md:text-[6rem] xl:text-[6.5rem] 2xl:text-[7rem] leading-tight font-bold font-mono;
 }
 
 .header2 {
-  @apply text-[4.375rem] leading-[5rem] font-semibold font-display;
+  @apply text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-[4.375rem] leading-tight font-semibold font-display;
 }
 
 .title1 {
@@ -192,7 +192,7 @@
 }
 
 .title2 {
-  @apply text-[2.499rem] leading-[2.5rem] font-semibold font-mono;
+  @apply text-lg sm:text-xl md:text-2xl xl:text-[2.499rem] leading-tight font-semibold font-mono;
 }
 
 .body1 {
@@ -217,6 +217,35 @@
 
 .button2 {
   @apply text-[1rem] leading-[1.25rem] font-normal font-mono;
+}
+
+
+@keyframes grid {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-grid {
+  animation: grid 15s linear infinite;
+}
+
+.custom-gradient {
+  background: linear-gradient(
+    to bottom,
+    #1a3a68 0%,
+    #cc228d 13%,
+    #1a3a68 31%,
+    #cc228d 58%,
+    #f2c5b0 65%,
+    #e99596 72%,
+    #df657c 76%,
+    #cc228d 81%,
+    #1a3a68 100%
+  );
 }
 
 .custom-gradient-about-2 {
