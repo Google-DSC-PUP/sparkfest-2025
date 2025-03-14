@@ -61,7 +61,7 @@ const SDGsGrid: React.FC<SDGsGridProps> = ({ rowConfig, sdgData }) => {
           : "";
             
         return (
-          <div key={rowIndex} className={`flex gap-4 ${justifyClass} ${marginLeftClass}`}>
+          <div key={rowIndex} className={`flex gap-2.5 sm:gap-4 ${justifyClass} ${marginLeftClass}`}>
             {row.map((sdg) => (
               <SdgBox key={sdg.number} color={sdg.color} data={sdg} />
             ))}
