@@ -219,6 +219,7 @@
   @apply text-[1rem] leading-[1.25rem] font-normal font-mono;
 }
 
+
 @keyframes grid {
   0% {
     transform: translateY(-50%);
@@ -273,4 +274,16 @@
 
 .my-accordion-content[data-state="closed"] {
   animation: my-accordion-up 200ms ease-out;
+}
+
+.custom-gradient-about-2 {
+  background: linear-gradient(
+    to bottom,
+    #cc228d 0%,
+    #cc228d 65%,
+    #cc228d 76%,
+    #cc228d 81%,
+    #df657c 100%,
+    #df657c 100%
+  );
 }

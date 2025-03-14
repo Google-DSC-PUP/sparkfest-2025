@@ -3,6 +3,7 @@ import Navbar from "@/components/features/Navbar";
 import LandingPage from "./components/features/LandingPage";
 import FaqsSection from "./components/features/FaqsSection";
 import FooterPage from "./components/features/FooterPage";
+import About from "@/components/features/About";
 import backgroundImage from "@/assets/landing-page-image.png";
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
       <Navbar />
       <section id="home">
         <LandingPage />
+      </section>
+      <section id="home">
+        <About />
       </section>
       <section id="faqs">
         <FaqsSection />
