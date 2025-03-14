@@ -14,15 +14,25 @@ interface SdgBoxProps {
 const SdgBox: React.FC<SdgBoxProps> = ({ color, data, className }) => {
   const [isHovered, setIsHovered] = useState(false);
 
-  // Use the color string directly from props instead of trying to use a class
   return (
     <div
-      className="w-[140px] h-[140px] border border-white rounded-lg overflow-hidden transition-transform duration-200 ease-in-out transform hover:scale-105"
+      className={`w-[140px] h-[140px] border border-white rounded-lg overflow-hidden ${className || ''}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {isHovered ? (
-        <div className="relative flex flex-col items-center justify-center w-full h-full bg-gray-100">
+      <div className="relative w-full h-full">
+        {/* Colored background with icon */}
+        <div 
+          className={`absolute inset-0 flex justify-center items-center transition-opacity duration-300 ease-in-out ${isHovered ? 'opacity-0' : 'opacity-100'}`}
+          style={{ backgroundColor: data.color }} 
+        >
+          <img src={data.image} alt={data.goal} className="w-20 h-20 object-contain" />
+        </div>
+        
+        {/* White background with text (shown on hover) */}
+        <div 
+          className={`absolute inset-0 flex flex-col items-center justify-center bg-gray-100 transition-opacity duration-300 ease-in-out ${isHovered ? 'opacity-100' : 'opacity-0'}`}
+        >
           <span 
             className="absolute top-3 left-3 text-[1.5rem] font-mono font-bold text-center"
             style={{ color: data.color }} 
@@ -36,14 +46,7 @@ const SdgBox: React.FC<SdgBoxProps> = ({ color, data, className }) => {
             {data.goal}
           </span>
         </div>
-      ) : (
-        <div 
-          className="flex justify-center items-center w-full h-full"
-          style={{ backgroundColor: data.color }} 
-        >
-          <img src={data.image} alt={data.goal} className="w-20 h-20 object-contain" />
-        </div>
-      )}
+      </div>
     </div>
   );
 };
