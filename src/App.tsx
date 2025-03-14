@@ -1,13 +1,15 @@
 import { BrowserRouter } from "react-router-dom";
-import { Button } from "@/components/ui/button";
 import Navbar from "@/components/features/Navbar";
-import backgroundImage from "@/assets/landing-page-image.png"; // Import the image
+import LandingPage from "./components/features/LandingPage";
+import FaqsSection from "./components/features/FaqsSection";
+import FooterPage from "./components/features/FooterPage";
+import backgroundImage from "@/assets/landing-page-image.png";
 
 function App() {
   return (
     <BrowserRouter>
       <div
-        className="flex flex-col items-center justify-center min-h-svh w-full bg-cover bg-center"
+        className="relative  custom-gradientflex flex-col items-center justify-center min-h-svh w-full bg-cover bg-center"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: "cover",
@@ -15,8 +17,10 @@ function App() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <Navbar />
-        <Button>Click me</Button>
+      <Navbar />
+      <LandingPage />
+      <FaqsSection />
+      <FooterPage />
       </div>
     </BrowserRouter>
   );
