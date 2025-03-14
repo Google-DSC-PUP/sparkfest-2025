@@ -24,14 +24,14 @@ const SdgBox: React.FC<SdgBoxProps> = ({ color, data, className }) => {
       {isHovered ? (
         <div className="relative flex flex-col items-center justify-center w-full h-full bg-gray-100">
           <span 
-            className="absolute top-3 left-3 text-3xl font-bold text-center"
-            style={{ color: data.color }} // Use the color from data directly
+            className="absolute top-3 left-3 text-[1.5rem] font-mono font-bold text-center"
+            style={{ color: data.color }} 
           >
             {data.number}
           </span>
           <span 
-            className="absolute bottom-2 left-3 text-sm font-bold text-center"
-            style={{ color: data.color }} // Use the color from data directly
+            className="absolute bottom-2 left-3 text-[13.136px] font-mono font-bold"
+            style={{ color: data.color }} 
           >
             {data.goal}
           </span>
@@ -39,7 +39,7 @@ const SdgBox: React.FC<SdgBoxProps> = ({ color, data, className }) => {
       ) : (
         <div 
           className="flex justify-center items-center w-full h-full"
-          style={{ backgroundColor: data.color }} // Use the color from data directly
+          style={{ backgroundColor: data.color }} 
         >
           <img src={data.image} alt={data.goal} className="w-20 h-20 object-contain" />
         </div>
