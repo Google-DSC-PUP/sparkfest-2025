@@ -2,44 +2,6 @@ import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Logo from "../../assets/logo.svg";
 
-
-const App: React.FC = () => {
-  useEffect(() => {
-    const style = document.createElement("style");
-    style.textContent = `
-      /* Hide scrollbar for Chrome, Safari and Opera */
-      *::-webkit-scrollbar {
-        display: none;
-      }
-      
-      /* Hide scrollbar for IE, Edge and Firefox */
-      * {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-      }
-    `;
-    document.head.appendChild(style);
-
-    return () => {
-      document.head.removeChild(style);
-    };
-  }, []);
-
-  return (
-    <div className="min-h-screen bg-gray-100">
-      <Navbar />
-      <main>
-        <HomeSection />
-        <AboutSection />
-        <SponsorsSection />
-        <FAQsSection />
-        <JoinSection />
-      </main>
-    </div>
-  );
-};
-
-// Navbar Component
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -58,7 +20,6 @@ const Navbar: React.FC = () => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
-      window.history.pushState(null, "", `#${sectionId}`);
     }
   };
 
@@ -176,82 +137,4 @@ const Navbar: React.FC = () => {
   );
 };
 
-const HomeSection: React.FC = () => {
-  return (
-    <section
-      id="home"
-      className="min-h-screen pt-24 px-4 md:px-12 flex items-center justify-center bg-gradient-to-b from-gray-900 to-gray-800 text-white"
-    >
-      <div className="text-center">
-        <h1 className="text-4xl font-bold">Home Section</h1>
-        <p className="mt-4">This is the home section content.</p>
-      </div>
-    </section>
-  );
-};
-
-const AboutSection: React.FC = () => {
-  return (
-    <section
-      id="about"
-      className="min-h-screen py-16 px-4 md:px-12 bg-white flex items-center justify-center"
-    >
-      <div className="text-center">
-        <h2 className="text-3xl font-bold text-[rgba(87,202,255,1)]">
-          About Section
-        </h2>
-        <p className="mt-4">This is the about section content.</p>
-      </div>
-    </section>
-  );
-};
-
-const SponsorsSection: React.FC = () => {
-  return (
-    <section
-      id="sponsors"
-      className="min-h-screen py-16 px-4 md:px-12 bg-gray-50 flex items-center justify-center"
-    >
-      <div className="text-center">
-        <h2 className="text-3xl font-bold text-[rgba(92,219,109,1)]">
-          Sponsors Section
-        </h2>
-        <p className="mt-4">This is the sponsors section content.</p>
-      </div>
-    </section>
-  );
-};
-
-const FAQsSection: React.FC = () => {
-  return (
-    <section
-      id="faqs"
-      className="min-h-screen py-16 px-4 md:px-12 bg-white flex items-center justify-center"
-    >
-      <div className="text-center">
-        <h2 className="text-3xl font-bold text-[rgba(255,125,175,1)]">
-          FAQs Section
-        </h2>
-        <p className="mt-4">This is the FAQs section content.</p>
-      </div>
-    </section>
-  );
-};
-
-const JoinSection: React.FC = () => {
-  return (
-    <section
-      id="join"
-      className="min-h-screen py-16 px-4 md:px-12 bg-gradient-to-b from-gray-900 to-gray-800 text-white flex items-center justify-center"
-    >
-      <div className="text-center">
-        <h2 className="text-3xl font-bold text-[rgba(52,168,83,1)]">
-          Join Section
-        </h2>
-        <p className="mt-4">This is the join section content.</p>
-      </div>
-    </section>
-  );
-};
-
-export default App;
+export default Navbar;
