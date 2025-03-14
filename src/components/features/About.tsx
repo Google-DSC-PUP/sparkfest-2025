@@ -1,8 +1,12 @@
 import React from "react";
 import { SDGData } from "@/data/dataLoader";
 import sparkyLogo from "/images/rendered_v3.png";
+import SdgBox from "../ui/sdg-box";
+import SDGsGrid from "../ui/sdg-grid";
 
 const About = () => {
+
+
   return (
     <section className="relative h-[940px] w-full custom-gradient-about-2">
       {/* About */}
@@ -32,7 +36,13 @@ const About = () => {
         </div>
       </div>
 
+      {/* SDG */}
+      <div className="absolute right-0 top-60 w-[1160px] h-[650px]">
+        <div className="flex justify-end pr-20">
+          <SDGsGrid rowConfig={[2, 3, 5, 7]} sdgData={SDGData} />
 
+        </div>
+      </div>
 
     </section>
   );
