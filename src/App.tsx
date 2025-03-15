@@ -1,9 +1,11 @@
-import { Button } from "@/components/ui/button";
+import LandingPage from "@/components/features/LandingPage";
+import Location from "@/components/features/Location";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
+    <div className="relative custom-gradient flex flex-col ">
+      <LandingPage />
+      <Location />
     </div>
   );
 }
