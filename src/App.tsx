@@ -7,6 +7,7 @@ import FooterPage from "./components/features/FooterPage";
 import About from "@/components/features/About";
 import backgroundImage from "@/assets/landing-page-image.png";
 import Location from "@/components/features/Location";
+import Highlights from "@/components/features/Highlights";
 
 
 function App() {
@@ -51,6 +52,9 @@ function App() {
       </section>
       <section id="location">
           <Location />
+      </section>
+      <section id="highlights">
+          <Highlights />
       </section>
       <section id="sponsors">
         <SponsorsSection />  

@@ -43,7 +43,7 @@ const cards = [
 
 const App: React.FC = () => {
   return (
-    <div className="flex flex-wrap bg-pink-300 h-screen min-h-max justify-center">
+    <div className="flex flex-wrap h-screen min-h-max justify-center">
       <div className="flex flex-row justify-center items-center gap-6">
         <img src={sparkyhead} className="md:mb-5 h-15 lg:h-20" />
         <p className="text-white font-semibold text-5xl drop-shadow-[0_4px_4px_rgba(168,64,56,1)]  md:font-display lg:text-[70px] ">
