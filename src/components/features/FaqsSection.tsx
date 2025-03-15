@@ -79,7 +79,7 @@ function FaqsSection() {
     };
 
     return (
-        <div className="w-full p-5 md:p-20 bg-gray-800">
+        <div className="w-full p-5 md:p-20">
             {/* Medium to Large Screen Header */}
             <div className="hidden md:flex flex-row items-center justify-center mb-14">
                 <img src={RenderedV3Svg2} alt="rendered v3" className="size-32" />
