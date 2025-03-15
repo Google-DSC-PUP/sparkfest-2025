@@ -34,9 +34,9 @@ function App() {
 
   return (
     <div
-      className="relative custom-gradient flex flex-col min-h-svh w-full bg-cover bg-center"
+      className="relative custom-gradient flex flex-col h-max min-h-svh w-full bg-cover bg-center"
       style={{
-        backgroundImage: `url(${backgroundImage})`,
+        // backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -46,7 +46,7 @@ function App() {
       <section id="home">
         <LandingPage />
       </section>
-      <section id="home">
+      <section id="about">
         <About />
       </section>
       <section id="location">
