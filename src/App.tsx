@@ -6,6 +6,8 @@ import FaqsSection from "./components/features/FaqsSection";
 import FooterPage from "./components/features/FooterPage";
 import About from "@/components/features/About";
 import backgroundImage from "@/assets/landing-page-image.png";
+import Location from "@/components/features/Location";
+
 
 function App() {
   useEffect(() => {
@@ -46,6 +48,9 @@ function App() {
       </section>
       <section id="home">
         <About />
+      </section>
+      <section id="location">
+          <Location />
       </section>
       <section id="sponsors">
         <SponsorsSection />  
