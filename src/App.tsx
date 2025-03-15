@@ -3,8 +3,8 @@ import Location from "@/components/features/Location";
 
 function App() {
   return (
-    <div className="relative custom-gradient flex flex-col ">
-      <LandingPage />
+    <div className="relative custom-gradient flex flex-col">
+      {/* <LandingPage /> */}
       <Location />
     </div>
   );
