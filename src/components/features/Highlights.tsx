@@ -44,7 +44,7 @@ const cards = [
 const App: React.FC = () => {
   return (
     <div className="flex flex-col flex-wrap gap-4 justify-center">
-      <div className="flex flex-row justify-center items-center gap-4 sm:gap-6">
+      <div className="flex flex-row justify-center items-center gap-2 sm:gap-4 md:gap-6">
         <img src={sparkyhead} className="h-15 lg:h-20" />
         <h1 className="text-white mobile-headers md:header2 [text-shadow:0px_4.56px_4.56px_#A84038] ">
           HIGHLIGHTS
