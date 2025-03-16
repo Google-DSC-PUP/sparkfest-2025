@@ -8,7 +8,7 @@ const Location = () => {
           <img
             src="/src/assets/lightning-1.png"
             alt="Left Lightning"
-            className="w-40 md:w-60 lg:w-150 z-20"
+            className="w-25 md:w-50 lg:w-80 2xl:w-150"
           />
         </div>
 
@@ -16,19 +16,21 @@ const Location = () => {
           <img
             src="/src/assets/lightning-2.png"
             alt="Right Lightning"
-            className="w-40 md:w-60 lg:w-150 "
+            className="w-25 md:w-50 lg:w-80 2xl:w-150"
           />
         </div>
 
-        <h1
-          className="header2 mb-7"
-          style={{
-            textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-            color: "rgba(241, 243, 244, 1)",
-          }}
-        >
-          WHERE'S THE FUN HAPPENING?
-        </h1>
+        <div className="flex items-center justify-center mb-4 text-center">
+          <h1
+            className="header2"
+            style={{
+              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+              color: "rgba(241, 243, 244, 1)",
+            }}
+          >
+            WHERE'S THE FUN HAPPENING?
+          </h1>
+        </div>
 
         <div className="z-20 flex flex-col items-center justify-center max-w-[1200px] p-2">
           <div className="relative bg-black p-6 w-full max-w-[81%] rounded-t-lg">
