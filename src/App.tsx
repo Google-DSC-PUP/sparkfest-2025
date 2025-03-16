@@ -49,10 +49,10 @@ function App() {
       <section id="about" className="navbar-spacing">
         <About />
       </section>
-      <section id="location">
+      <section id="location" className="navbar-spacing">
         <Location />
       </section>
-      <section id="highlights">
+      <section id="highlights" className="navbar-spacing">
         <Highlights />
       </section>
       <section id="sponsors" className="navbar-spacing">
