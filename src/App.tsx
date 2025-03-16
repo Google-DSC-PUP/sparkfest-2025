@@ -8,6 +8,8 @@ import About from "@/components/features/About";
 import backgroundImage from "@/assets/landing-page-image.png";
 import Location from "@/components/features/Location";
 import Highlights from "@/components/features/Highlights";
+import HackatonKit from "./components/features/HackatonKit";
+import JoinUs from "./components/features/JoinUs";
 
 function App() {
   useEffect(() => {
@@ -57,6 +59,12 @@ function App() {
       </section>
       <section id="sponsors" className="navbar-spacing">
         <SponsorsSection />
+      </section>
+      <section id="hackathon-kit" className="navbar-spacing">
+        <HackatonKit />
+      </section>
+      <section id="join-us" className="navbar-spacing">
+        <JoinUs />
       </section>
       <section id="faqs" className="navbar-spacing">
         <FaqsSection />

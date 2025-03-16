@@ -8,7 +8,7 @@ const HackatonKit = () => {
   return (
     <div className='w-full flex justify-center items-center'>
         {/* Desktop */}
-        <div className='hidden xl:flex min-h-[940px] pt-32 pb-48 px-20 gap-12'>
+        <div className='hidden xl:flex pt-32 pb-48 px-20 gap-12'>
             <div>
                 <h1 className='header text-grey-100' style={{textShadow: "0px 4px 4px #A84038"}}>HACKATHON</h1>
                 <div className='flex header' style={{textShadow: "0px 4px 4px #A84038"}}>
@@ -39,7 +39,7 @@ const HackatonKit = () => {
         </div>
 
         {/* Tablet */}
-        <div className="hidden md:flex xl:hidden min-h-[940px] pt-32 pb-48 2xl:px-20">
+        <div className="hidden md:flex xl:hidden min-h-[940px] pb-48 2xl:px-20">
             <div>
                 <h1 className='header2 text-grey-100 text-center' style={{textShadow: "0px 4px 4px #A84038"}}>HACKATHON</h1>
                 <div className='flex justify-center header2 text-center mb-4' style={{textShadow: "0px 4px 4px #A84038"}}>
@@ -70,7 +70,7 @@ const HackatonKit = () => {
         </div>
 
         {/* Mobile */}
-        <div className='flex md:hidden flex-col min-h-[852px] mt-16'>
+        <div className='flex md:hidden flex-col max-h-[852px]'>
             <div>
                 <h1 className='title1 text-grey-100 text-center' style={{textShadow: "0px 4px 4px #A84038"}}>HACKATHON</h1>
                 <div className='flex justify-center title1 text-center mb-4' style={{textShadow: "0px 4px 4px #A84038"}}>

@@ -8,7 +8,7 @@ import PixelButton from '../ui/pixelated-btn'
 
 const JoinUs = () => {
   return (
-    <div className='relative flex justify-center items-center w-full h-[967px]'>
+    <div className='relative flex justify-center items-center w-full h-full md:max-h-max lg:max-h-[967px] '>
         {/* Small particles */}
         <Particles
             className="absolute inset-0 -z-10"
@@ -29,7 +29,7 @@ const JoinUs = () => {
 
         {/* Large particles */}
         <Particles
-            className="absolute inset-0"
+            className="absolute inset-0 z-10"
             quantity={30}  // Fewer but larger
             staticity={50}  // Slower movement
             ease={20}  // Smooth animation
@@ -47,24 +47,23 @@ const JoinUs = () => {
 
 
         {/* banner */}
-        <div className=''>
-
+        <div className='z-20'>
             {/* top-blockset mobile */}
             <div className='block lg:hidden mb-16 mt-20'>
                 <img src={TBlockSet} alt="" className='opacity-80 w-full p-4' />
             </div>
 
-            <div className='header text-center text-grey-100' style={{textShadow: "0px 4px 4px #A84038"}}>
+            <div className='z-20 header text-center text-grey-100' style={{textShadow: "0px 4px 4px #A84038"}}>
                 April {'  '}
                 <span className="text-yellow">2</span>
                     <span className='text-blue'>0</span>
                     <span className='text-green'>2</span>
                     <span className='text-red'>5</span>
             </div>
-            <div className='text-center title2 mt-4 lg:mt-12 text-white'>
+            <div className='z-20 text-center title2 mt-4 lg:mt-12 text-white'>
                 Join ipsum dolor sit amet!
             </div>
-            <div className='flex justify-center mt-8 lg:mt-12'>
+            <div className='z-20 flex justify-center mt-8 lg:mt-12'>
                 <PixelButton color='#4CAF50' classname='w-60'>Register now</PixelButton>
             </div>
 
