@@ -45,11 +45,11 @@ const App: React.FC = () => {
   return (
     <div className="flex flex-wrap h-screen min-h-max justify-center">
       <div className="flex flex-row justify-center items-center gap-6">
-        <img src={sparkyhead} className="md:mb-5 h-15 lg:h-20" />
-        <p className="text-white font-semibold text-5xl drop-shadow-[0_4px_4px_rgba(168,64,56,1)]  md:font-display lg:text-[70px] ">
+        <img src={sparkyhead} className="h-15 lg:h-20" />
+        <h1 className="text-white header2 drop-shadow-[0_4px_4px_rgba(168,64,56,1)] ">
           HIGHLIGHTS
-        </p>
-        <img src={sparkyhead} className="scale-x-[-1] md:mb-5 h-15 lg:h-20" />
+        </h1>
+        <img src={sparkyhead} className="scale-x-[-1] h-15 lg:h-20" />
       </div>
 
       <div className="flex flex-wrap justify-center gap-8 p-6 ">
