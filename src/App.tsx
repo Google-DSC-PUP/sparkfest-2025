@@ -8,6 +8,7 @@ import About from "@/components/features/About";
 import backgroundImage from "@/assets/landing-page-image.png";
 import Location from "@/components/features/Location";
 import Highlights from "@/components/features/Highlights";
+import HackathonKit from "./components/features/HackathonKit";
 import JoinUs from "./components/features/JoinUs";
 
 
@@ -59,6 +60,9 @@ function App() {
       </section> */}
       <section id="sponsors">
         <SponsorsSection />  
+      </section>
+      <section id="hackathon">
+        <HackathonKit/>
       </section>
       <section>
         <JoinUs />
