@@ -1,7 +1,7 @@
 import { Marquee } from "@/components/magicui/marquee.tsx";
 import { platinumSponsors, goldSponsors, silverSponsors } from "./data.ts"
 import { SponsorLabel } from "./SponsorLabel.tsx";
-import { SponsorCard } from "./SponsorCard.ts";
+import { SponsorCard } from "./SponsorCard.tsx";
 import React from "react";
 
 export function SponsorsMarquee() {
