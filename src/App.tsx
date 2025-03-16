@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import Navbar from "@/components/features/Navbar";
-import LandingPage from "./components/features/LandingPage";
-import SponsorsSection from "./components/Sponsors/SponsorsSection";
-import FaqsSection from "./components/features/FaqsSection";
-import FooterPage from "./components/features/FooterPage";
+import LandingPage from "@/components/features/LandingPage";
+import SponsorsSection from "@/components/Sponsors/SponsorsSection";
+import FaqsSection from "@/components/features/FaqsSection";
+import FooterPage from "@/components/features/FooterPage";
 import About from "@/components/features/About";
 import backgroundImage from "@/assets/landing-page-image.png";
 import Location from "@/components/features/Location";
@@ -60,10 +60,10 @@ function App() {
       <section id="sponsors" className="navbar-spacing">
         <SponsorsSection />
       </section>
-      <section id="hackathon-kit" className="navbar-spacing">
+      <section id="hackaton-kit">
         <HackatonKit />
       </section>
-      <section id="join-us" className="navbar-spacing">
+      <section id="join-us">
         <JoinUs />
       </section>
       <section id="faqs" className="navbar-spacing">
