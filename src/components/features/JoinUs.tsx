@@ -54,7 +54,7 @@ const JoinUs = () => {
                 <img src={TBlockSet} alt="" className='opacity-80 w-full p-4' />
             </div>
 
-            <div className='header text-center text-white' style={{textShadow: "0px 4px 4px #A84038"}}>
+            <div className='header text-center text-grey-100' style={{textShadow: "0px 4px 4px #A84038"}}>
                 April {'  '}
                 <span className="text-yellow">2</span>
                     <span className='text-blue'>0</span>
