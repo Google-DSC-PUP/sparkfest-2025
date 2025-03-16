@@ -1,5 +1,5 @@
 import React from "react";
-import { SDGData } from "../../data/dataLoader.tsx";
+import { SDGData } from "../../data/dataLoader.ts";
 import sparkyLogo from "/images/rendered_v3.png";
 import SdgBox from "../ui/sdg-box.tsx";
 import SDGsGrid from "../ui/sdg-grid.tsx";
