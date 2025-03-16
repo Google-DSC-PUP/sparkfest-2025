@@ -223,6 +223,10 @@
   @apply text-[1rem] leading-[1.25rem] font-normal font-mono;
 }
 
+.mobile-headers {
+  @apply font-mono font-bold text-4xl text-grey-100 [text-shadow:_0px_4px_4px_rgb(168_64_56_/_1.00)] text-center;
+}
+
 @keyframes grid {
   0% {
     transform: translateY(-50%);
@@ -333,4 +337,9 @@
     #df657c 100%,
     #df657c 100%
   );
+}
+
+.navbar-spacing {
+  padding-top: calc(92px);
+  padding-bottom: 2rem;
 }

@@ -91,16 +91,12 @@ function FaqsSection() {
 
       {/* Small Screen */}
       <div className="flex flex-col items-center justify-center mb-12 md:hidden">
-        <h1 className="font-mono font-bold text-4xl text-grey-100 [text-shadow:_0px_4px_4px_rgb(168_64_56_/_1.00)] text-center">
-          FREQUENTLY ASKED
-        </h1>
+        <h1 className="mobile-headers">FREQUENTLY ASKED</h1>
         <div className="flex justify-center items-center m-[-15px]">
           <span>
             <img src={RenderedV3Svg2} alt="rendered v3" className="size-20" />
           </span>
-          <span className="font-mono font-bold text-4xl text-grey-100 [text-shadow:_0px_4px_4px_rgb(168_64_56_/_1.00)]">
-            QUESTIONS
-          </span>
+          <span className="mobile-headers">QUESTIONS</span>
           <span>
             <img src={RenderedV3Svg1} alt="rendered v3" className="size-20" />
           </span>

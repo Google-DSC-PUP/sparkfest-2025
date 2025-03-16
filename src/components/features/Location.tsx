@@ -22,13 +22,13 @@ const Location = () => {
 
         <div className="flex items-center justify-center mb-4 text-center">
           <h1
-            className="header2"
+            className="mobile-headers md:header2"
             style={{
               textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
               color: "rgba(241, 243, 244, 1)",
             }}
           >
-            WHERE'S THE FUN HAPPENING?
+            WHERE’S THE FUN HAPPENING?
           </h1>
         </div>
 
