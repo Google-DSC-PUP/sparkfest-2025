@@ -208,11 +208,11 @@
 }
 
 .small1 {
-  @apply text-[1rem] leading-[1.25rem] font-normal font-mono;
+  @apply text-[0.75rem] sm:text-[0.875rem] md:text-[1rem] leading-[1.25rem] font-normal font-mono;
 }
 
 .small2 {
-  @apply text-[0.821rem] leading-[1.25rem] font-normal font-mono;
+  @apply text-[0.625rem] sm:text-[0.75rem] md:text-[0.875rem] lg:text-[0.821rem] leading-[1.25rem] font-normal font-mono;
 }
 
 .button1 {
@@ -223,6 +223,9 @@
   @apply text-[1rem] leading-[1.25rem] font-normal font-mono;
 }
 
+.mobile-headers {
+  @apply font-mono font-bold text-4xl text-grey-100 [text-shadow:_0px_4px_4px_rgb(168_64_56_/_1.00)] text-center;
+}
 
 @keyframes grid {
   0% {
@@ -289,19 +292,27 @@
 }
 
 /* accordion animation */
-.data-\[state\=open\]\:animate-accordion-down, 
+.data-\[state\=open\]\:animate-accordion-down,
 .data-\[state\=closed\]\:animate-accordion-up {
   animation-duration: 100ms !important;
 }
 
 @keyframes my-accordion-down {
-  from { height: 0 }
-  to { height: var(--radix-accordion-content-height) }
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
 }
 
 @keyframes my-accordion-up {
-  from { height: var(--radix-accordion-content-height) }
-  to { height: 0 }
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
 }
 
 .my-accordion-content {
@@ -326,6 +337,17 @@
     #df657c 100%,
     #df657c 100%
   );
+}
+
+.navbar-spacing {
+  padding-top: calc(92px + 0.5rem);
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-spacing {
+    padding-top: calc(72px + 0.5rem);
+  }
 }
 
 
@@ -427,3 +449,4 @@
 .pixel-corners::after {
   margin: -10px;
 }
+

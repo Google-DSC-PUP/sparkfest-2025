@@ -24,47 +24,43 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-gray-900/60 backdrop-blur-md px-4 md:px-12 py-4 md:py-6 flex justify-between items-center z-40">
+    <nav className="fixed top-0 left-0 w-full bg-gray-900/60 backdrop-blur-md px-4 md:px-12 py-4 flex justify-between items-center z-40">
       <div className="flex items-center">
         <img
           src={Logo}
           alt="Sparkfest Logo"
-          className="h-8 md:hidden cursor-pointer"
+          className="h-8 md:hidden cursor-pointer w-full"
           onClick={() => scrollToSection("home")}
         />
         <img
           src={Logo}
           alt="Sparkfest Logo"
-          style={{
-            width: "auto",
-            height: "50px",
-          }}
-          className="hidden md:block cursor-pointer"
+          className="hidden md:block cursor-pointer w-full"
           onClick={() => scrollToSection("home")}
         />
       </div>
-      <div className="hidden md:flex items-center">
+      <div className="hidden md:flex items-center gap-10">
         <button
           onClick={() => scrollToSection("about")}
-          className="body2 text-gray-100 hover:text-[rgba(87,202,255,1)] transition-all mx-6"
+          className="body2 text-gray-100 hover:text-[rgba(87,202,255,1)] transition-all "
         >
           About
         </button>
         <button
           onClick={() => scrollToSection("sponsors")}
-          className="body2 text-gray-100 hover:text-[rgba(92,219,109,1)] text-base transition-all mx-6"
+          className="body2 text-gray-100 hover:text-[rgba(92,219,109,1)] text-base transition-all "
         >
           Sponsors
         </button>
         <button
           onClick={() => scrollToSection("faqs")}
-          className="body2 text-gray-100 hover:text-[rgba(255,125,175,1)] text-base transition-all mx-6"
+          className="body2 text-gray-100 hover:text-[rgba(255,125,175,1)] text-base transition-all "
         >
           FAQs
         </button>
         <button
           onClick={() => scrollToSection("join")}
-          className="body2 bg-[rgba(52,168,83,1)] hover:bg-[#4CD964] px-8 py-3 rounded-full text-white transition-all duration-300 ml-10"
+          className="body2 bg-[rgba(52,168,83,1)] hover:bg-[#4CD964] px-8 py-3 rounded-full text-white transition-all text-nowrap duration-300 "
         >
           Join Now
         </button>

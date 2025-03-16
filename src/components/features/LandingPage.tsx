@@ -29,7 +29,7 @@ export default function LandingPage() {
       style={{ backgroundImage: `url(${LandingPageImage})` }}
     >
       {/* Left side with mascot - 50% width */}
-      <div className="w-full xl:w-1/2 flex justify-center z-10">
+      <div className="w-full xl:w-1/2 flex justify-center z-10 md:mt-20">
         <img
           src={SparkyImage}
           alt="sparky image"
@@ -38,7 +38,7 @@ export default function LandingPage() {
       </div>
 
       {/* Right side with countdown and text - 50% width */}
-      <div className="w-full xl:w-1/2 flex flex-col items-center lg:items-start gap-2 text-white z-10">
+      <div className="w-full xl:w-1/2 flex flex-col items-center lg:items-start gap-2 text-white z-10 mt-20">
         {/* Countdown boxes with NumberTicker */}
         <div className="flex flex-col items-start gap-4">
           <div className="flex items-center justify-center gap-4 cursor-pointer">

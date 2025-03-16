@@ -8,8 +8,6 @@ import About from "@/components/features/About";
 import backgroundImage from "@/assets/landing-page-image.png";
 import Location from "@/components/features/Location";
 import Highlights from "@/components/features/Highlights";
-import JoinUs from "./components/features/JoinUs";
-
 
 function App() {
   useEffect(() => {
@@ -48,25 +46,22 @@ function App() {
       <section id="home">
         <LandingPage />
       </section>
-      <section id="about">
+      <section id="about" className="navbar-spacing">
         <About />
       </section>
-      <section id="location">
-          <Location />
+      <section id="location" className="navbar-spacing">
+        <Location />
       </section>
-      {/* <section id="highlights">
-          <Highlights />
-      </section> */}
-      <section id="sponsors">
-        <SponsorsSection />  
+      <section id="highlights" className="navbar-spacing">
+        <Highlights />
       </section>
-      <section>
-        <JoinUs />
+      <section id="sponsors" className="navbar-spacing">
+        <SponsorsSection />
       </section>
-      <section id="faqs">
+      <section id="faqs" className="navbar-spacing">
         <FaqsSection />
       </section>
-      {/* <FooterPage /> */}
+      <FooterPage />
     </div>
   );
 }
