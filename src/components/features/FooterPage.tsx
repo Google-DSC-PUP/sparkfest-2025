@@ -6,7 +6,7 @@ import FooterBackground from "@/assets/footer-backgroud.png";
 
 const FooterPage = () => {
   return (
-    <footer className="relative flex flex-col gap-4 items-center justify-center w-full">
+    <footer className="relative flex flex-col gap-4 mt-10 items-center justify-center w-full">
       <div
         className="absolute inset-0"
         style={{
