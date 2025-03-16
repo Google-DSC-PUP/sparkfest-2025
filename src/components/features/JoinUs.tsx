@@ -2,6 +2,7 @@ import React from 'react'
 import RBlockSet from '/images/R-blockset.png'
 import LBlockSet from '/images/L-blockset.png'
 import { Particles } from '../magicui/particles'
+import PixelButton from '../ui/pixelated-btn'
 
 const JoinUs = () => {
   return (
@@ -52,6 +53,9 @@ const JoinUs = () => {
             </div>
             <div className='text-center title2 mt-12 text-white'>
                 Join ipsum dolor sit amet!
+            </div>
+            <div className='flex justify-center mt-12'>
+                <PixelButton color='#4CAF50' classname='w-60'>Join Now</PixelButton>
             </div>
       </div>
     </div>
