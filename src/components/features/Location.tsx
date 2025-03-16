@@ -2,32 +2,30 @@ import React from "react";
 
 const Location = () => {
   return (
-    <div className="w-full min-h-[940px] flex items-center justify-center ">
+    <div className="w-full flex items-center justify-center ">
       <div className="relative w-full flex justify-center items-center flex-col">
-        <div className="absolute z-30 left-0 bottom-35 lg:bottom-0">
+        <div className="absolute z-30 left-0 bottom-[10%] lg:bottom-0 w-[30%] max-w-[150px] md:max-w-[200px] lg:max-w-[300px] 2xl:max-w-[400px]">
           <img
             src="/src/assets/lightning-1.png"
             alt="Left Lightning"
-            className="w-25 md:w-50 lg:w-80 2xl:w-150"
+            className="w-full"
           />
         </div>
 
-        <div className="absolute z-30 right-0 bottom-35  lg:bottom-0">
+        <div className="absolute z-30 right-0 bottom-[10%] lg:bottom-0 w-[30%] max-w-[150px] md:max-w-[200px] lg:max-w-[300px] 2xl:max-w-[400px]">
           <img
             src="/src/assets/lightning-2.png"
             alt="Right Lightning"
-            className="w-25 md:w-50 lg:w-80 2xl:w-150"
+            className="w-full"
           />
         </div>
 
         <div className="flex items-center justify-center mb-4 text-center">
-          <h1
-            className="mobile-headers md:header2"
-            style={{
-              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-              color: "rgba(241, 243, 244, 1)",
-            }}
-          >
+          <h1 className="mobile-headers text-grey-100 md:hidden">
+            WHERE’S THE FUN HAPPENING?
+          </h1>
+
+          <h1 className="hidden md:block text-grey-100 header2 [text-shadow:_0px_4px_4px_rgb(168_64_56_/_1.00)] text-center">
             WHERE’S THE FUN HAPPENING?
           </h1>
         </div>
