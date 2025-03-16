@@ -9,7 +9,6 @@ import backgroundImage from "@/assets/landing-page-image.png";
 import Location from "@/components/features/Location";
 import Highlights from "@/components/features/Highlights";
 
-
 function App() {
   useEffect(() => {
     // Optional: Hide scrollbar for consistent look
@@ -47,19 +46,19 @@ function App() {
       <section id="home">
         <LandingPage />
       </section>
-      <section id="about">
+      <section id="about" className="navbar-spacing">
         <About />
       </section>
       <section id="location">
-          <Location />
+        <Location />
       </section>
       <section id="highlights">
-          <Highlights />
+        <Highlights />
       </section>
-      <section id="sponsors">
-        <SponsorsSection />  
+      <section id="sponsors" className="navbar-spacing">
+        <SponsorsSection />
       </section>
-      <section id="faqs">
+      <section id="faqs" className="navbar-spacing">
         <FaqsSection />
       </section>
       <FooterPage />

@@ -340,6 +340,12 @@
 }
 
 .navbar-spacing {
-  padding-top: calc(92px);
+  padding-top: calc(92px + 0.5rem);
   padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-spacing {
+    padding-top: calc(72px + 0.5rem);
+  }
 }
