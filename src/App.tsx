@@ -8,8 +8,8 @@ import About from "@/components/features/About";
 import backgroundImage from "@/assets/landing-page-image.png";
 import Location from "@/components/features/Location";
 import Highlights from "@/components/features/Highlights";
-import JoinUs from "@/components/features/JoinUs";
-import HackatonKit from "@/components/features/HackatonKit";
+import HackatonKit from "./components/features/HackatonKit";
+import JoinUs from "./components/features/JoinUs";
 
 function App() {
   useEffect(() => {
