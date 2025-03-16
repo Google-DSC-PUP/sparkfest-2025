@@ -1,5 +1,5 @@
 import React from 'react';
-import SdgBox from './sdg-box';
+import SdgBox from './sdg-box.tsx';
 
 interface SDG {
   goal: string;
