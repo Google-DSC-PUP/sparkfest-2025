@@ -42,7 +42,7 @@ const SVGComponent: React.FC<SVGComponentProps> = ({
   > = {
     small: { width: 300, height: 300, viewBox: "0 0 300 300" },
     medium: { width: 500, height: 250, viewBox: "0 0 500 250" },
-    large: { width: 760, height: 300, viewBox: "0 0 760 300" },
+    large: { width: 700, height: 300, viewBox: "0 0 760 300" },
   };
   return (
     <div className="relative flex ">
@@ -153,7 +153,7 @@ const SVGComponent: React.FC<SVGComponentProps> = ({
       {/* Large SVG */}
       {screenSize === "large" && (
         <svg
-          width="760"
+          width="700"
           height="300"
           viewBox="0 0 760 300"
           fill="none"
