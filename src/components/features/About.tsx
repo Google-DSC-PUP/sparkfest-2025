@@ -77,7 +77,7 @@ const About = () => {
         </div>
 
         {/* Headers - Mobile */}
-        <div className="block md:hidden mt-9 px-4">
+        <div className="block md:hidden mt-9">
           {/* SparkFest */}
           <div className="flex flex-col justify-center items-center">
             <div className="flex justify-center items-center">
@@ -106,8 +106,8 @@ const About = () => {
         </div>
 
         {/* SDG - Mobile */}
-        <div className="block md:hidden top-60 mt-4">
-          <div className="flex justify-center p-5">
+        <div className="block md:hidden top-60 mt-4 pr-2">
+          <div className="flex justify-center">
             <SDGsGrid rowConfig={[2, 3, 4, 4, 4]} sdgData={SDGData} />
           </div>
         </div>
