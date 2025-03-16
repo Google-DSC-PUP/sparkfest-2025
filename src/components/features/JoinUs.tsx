@@ -8,7 +8,7 @@ import PixelButton from '../ui/pixelated-btn.tsx'
 
 const JoinUs = () => {
   return (
-    <div className='relative flex justify-center items-center w-full h-[967px] md:max-h-max lg:max-h-[967px] '>
+    <div className='relative flex justify-center items-center w-full h-[967px] md:min-h-max lg:max-h-[967px] '>
         {/* Small particles */}
         <Particles
             className="absolute inset-0 -z-10"
