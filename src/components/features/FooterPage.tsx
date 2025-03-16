@@ -17,20 +17,24 @@ const FooterPage = () => {
           opacity: "0.8",
         }}
       ></div>
-      <h1 className="header hidden md:block text-grey-100 z-10">
+      <h1 className="header hidden text-center lg:block text-grey-100 z-10">
         SEE YOU THERE!
       </h1>
 
-      <div className="flex flex-row justify-around items-center w-full p-4 z-10">
+      <div className="flex flex-col-reverse gap-6 sm:flex-row justify-around items-center w-full p-4 z-10">
         {/* Left Side */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col items-center sm:items-start gap-6">
           <img
-            className="max-w-[300px]"
+            className="max-w-[200px] sm:max-w-[250px] md:max-w-[300px]"
             src={SparkfestLogo}
             alt="Sparkfest Logo"
           />
-          <img className="max-w-[300px]" src={GDGLogo} alt="Sparkfest Logo" />
-          <p className="small2 text-grey-100">
+          <img
+            className="max-w-[200px] sm:max-w-[250px] md:max-w-[300px]"
+            src={GDGLogo}
+            alt="Sparkfest Logo"
+          />
+          <p className="small2 text-center sm:text-start text-grey-100">
             Bridging the gap between theory and practice.
           </p>
           <div className="flex items-center gap-4">
@@ -67,7 +71,7 @@ const FooterPage = () => {
         </div>
 
         {/* Right Side */}
-        <div className="flex flex-row gap-10">
+        <div className="flex flex-row justify-around sm:justify-start sm:gap-8 w-full sm:w-fit">
           <div className="text-grey-100 flex flex-col gap-4">
             <a href="#" className="cursor-pointer">
               <p className="text-[19px] font-mono font-bold">Sparkfest</p>
@@ -93,6 +97,7 @@ const FooterPage = () => {
             <a
               href="https://gdg.community.dev/gdg-on-campus-polytechnic-university-of-the-philippines-manila-philippines/"
               target="_blank"
+              className="cursor-pointer"
             >
               <p className="small1">Community</p>
             </a>
@@ -102,7 +107,7 @@ const FooterPage = () => {
 
       {/* Copyright Side */}
       <div className="border-t border-grey-100 w-full flex justify-center z-10">
-        <p className="small1 text-grey-100 my-6">
+        <p className="small1 text-grey-100 text-center my-6">
           @ 2025 Sparkfest. All rights reserved.
         </p>
       </div>
