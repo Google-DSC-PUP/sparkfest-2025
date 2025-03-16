@@ -57,8 +57,8 @@ const SVGComponent: React.FC<SVGComponentProps> = ({
 
       {screenSize === "small" && (
         <svg
-          width="350"
-          height="340"
+          width="310"
+          height="300"
           viewBox="0 0 350 340"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
