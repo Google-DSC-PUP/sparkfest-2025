@@ -50,9 +50,9 @@ const HackatonKit = () => {
                     {/* <img src={Logo} alt="" className='w-32 h-32' /> */}
                 </div>
                 <div className='flex justify-center w-full'>
-                    <img src={HackathonKitImage} alt="" className='h-[450px] w-[500px] border-[5px] border-white rounded-xl' style={{boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset"}} />
+                    <img src={HackathonKitImage} alt="" className='h-[350px] w-[400px] border-[5px] border-white rounded-xl' style={{boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset"}} />
                 </div>
-                <p className='small1 text-center text-grey-100 my-8 mx-5'>
+                <p className='small1 text-center text-grey-100 my-8 mx-10'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 </p>
                 
@@ -81,7 +81,7 @@ const HackatonKit = () => {
                     {/* <img src={Logo} alt="" className='w-32 h-32' /> */}
                 </div>
                 <div className='flex justify-center w-full'>
-                    <img src={HackathonKitImage} alt="" className='h-[373px] w-[353px] border-[5px] border-white rounded-xl' style={{boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset"}} />
+                    <img src={HackathonKitImage} alt="" className='h-[373px] w-[350px] border-[5px] border-white rounded-xl' style={{boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset"}} />
                 </div>
                 <p className='small2 text-center text-grey-100 my-5 mx-5'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
