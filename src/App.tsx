@@ -61,10 +61,10 @@ function App() {
       <section id="sponsors" className="navbar-spacing">
         <SponsorsSection />
       </section>
-      <section id="hackathon-kit" className="navbar-spacing">
+      <section id="hackaton-kit">
         <HackatonKit />
       </section>
-      <section id="join-us" className="navbar-spacing">
+      <section id="join-us">
         <JoinUs />
       </section>
       <section id="faqs" className="navbar-spacing">
