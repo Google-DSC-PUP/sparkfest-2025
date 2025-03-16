@@ -208,11 +208,11 @@
 }
 
 .small1 {
-  @apply text-[1rem] leading-[1.25rem] font-normal font-mono;
+  @apply text-[0.75rem] sm:text-[0.875rem] md:text-[1rem] leading-[1.25rem] font-normal font-mono;
 }
 
 .small2 {
-  @apply text-[0.821rem] leading-[1.25rem] font-normal font-mono;
+  @apply text-[0.625rem] sm:text-[0.75rem] md:text-[0.875rem] lg:text-[0.821rem] leading-[1.25rem] font-normal font-mono;
 }
 
 .button1 {
@@ -222,7 +222,6 @@
 .button2 {
   @apply text-[1rem] leading-[1.25rem] font-normal font-mono;
 }
-
 
 @keyframes grid {
   0% {
@@ -289,19 +288,27 @@
 }
 
 /* accordion animation */
-.data-\[state\=open\]\:animate-accordion-down, 
+.data-\[state\=open\]\:animate-accordion-down,
 .data-\[state\=closed\]\:animate-accordion-up {
   animation-duration: 100ms !important;
 }
 
 @keyframes my-accordion-down {
-  from { height: 0 }
-  to { height: var(--radix-accordion-content-height) }
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
 }
 
 @keyframes my-accordion-up {
-  from { height: var(--radix-accordion-content-height) }
-  to { height: 0 }
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
 }
 
 .my-accordion-content {
