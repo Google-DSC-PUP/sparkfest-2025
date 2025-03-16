@@ -43,7 +43,7 @@ const cards = [
 
 const App: React.FC = () => {
   return (
-    <div className="flex flex-wrap h-screen min-h-max justify-center">
+    <div className="flex flex-col flex-wrap gap-4 justify-center">
       <div className="flex flex-row justify-center items-center gap-6">
         <img src={sparkyhead} className="h-15 lg:h-20" />
         <h1 className="text-white header2 drop-shadow-[0_4px_4px_rgba(168,64,56,1)] ">
@@ -52,7 +52,7 @@ const App: React.FC = () => {
         <img src={sparkyhead} className="scale-x-[-1] h-15 lg:h-20" />
       </div>
 
-      <div className="flex flex-wrap justify-center gap-8 p-6 ">
+      <div className="flex flex-wrap justify-center gap-6 sm:gap-8 sm:p-6 ">
         {cards.map((card, index) => (
           <SVGComponent
             key={index}
