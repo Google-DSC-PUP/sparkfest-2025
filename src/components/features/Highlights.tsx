@@ -46,9 +46,13 @@ const App: React.FC = () => {
     <div className="flex flex-col flex-wrap gap-4 justify-center">
       <div className="flex flex-row justify-center items-center gap-2 sm:gap-4 md:gap-6">
         <img src={sparkyhead} className="h-15 lg:h-20" />
-        <h1 className="text-white mobile-headers md:header2 [text-shadow:0px_4.56px_4.56px_#A84038] ">
+
+        <h1 className="mobile-headers text-grey-100 md:hidden">HIGHLIGHTS</h1>
+
+        <h1 className="hidden md:block text-grey-100 header2 [text-shadow:_0px_4px_4px_rgb(168_64_56_/_1.00)] text-center">
           HIGHLIGHTS
         </h1>
+
         <img src={sparkyhead} className="scale-x-[-1] h-15 lg:h-20" />
       </div>
 
