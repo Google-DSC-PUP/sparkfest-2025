@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '/svgs/IsoSparky-Head-BASE.svg'
-import PixelButton from '../ui/pixelated-btn'
+import PixelButton from '../ui/pixelated-btn.tsx'
 import BelowLogo from '/images/Below-icon.png'
 import HackathonKitImage from '/images/hackathon-kit-image.png'
 

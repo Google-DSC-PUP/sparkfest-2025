@@ -3,8 +3,8 @@ import RBlockSet from "/images/R-blockset.png";
 import LBlockSet from "/images/L-blockset.png";
 import TBlockSet from "/images/T-blockset.png";
 import BBlockSet from "/images/B-blockset.png";
-import { Particles } from "../magicui/particles";
-import PixelButton from "../ui/pixelated-btn";
+import { Particles } from "../magicui/particles.tsx";
+import PixelButton from "../ui/pixelated-btn.tsx";
 
 const JoinUs = () => {
   return (

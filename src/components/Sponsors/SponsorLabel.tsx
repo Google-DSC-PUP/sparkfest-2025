@@ -1,3 +1,5 @@
+import React from "react";
+
 export function SponsorLabel({ label }: { label: string }) {
   return (
     <header className="relative flex flex-col items-center justify-center w-full">

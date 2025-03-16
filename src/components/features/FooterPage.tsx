@@ -3,6 +3,7 @@ import GDGLogo from "@/assets/gdg-logo.png";
 import { FaFacebookF, FaLinkedinIn, FaTiktok } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import FooterBackground from "@/assets/footer-backgroud.png";
+import React from "react";
 
 const FooterPage = () => {
   return (

@@ -4,9 +4,10 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from "@/components/ui/accordion.tsx";
 import RenderedV3Svg2 from "/svgs/RENDERED_V3 2.svg";
 import RenderedV3Svg1 from "/svgs/RENDERED_V3 1.svg";
+import React from "react";
 
 function FaqsSection() {
   const [activeIndices, setActiveIndices] = useState<number[]>([]); // State to keep track of active indices

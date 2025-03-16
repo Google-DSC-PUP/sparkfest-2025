@@ -1,5 +1,6 @@
-import { SponsorsMarquee } from "./SponsorsMarquee";
-import { SponsorsHeader } from "./SponsorsHeader";
+import { SponsorsMarquee } from "./SponsorsMarquee.tsx";
+import { SponsorsHeader } from "./SponsorsHeader.tsx";
+import React from "react";
 
 export default function SponsorsSection() {
   return (

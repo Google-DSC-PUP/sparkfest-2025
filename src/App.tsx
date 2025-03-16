@@ -1,15 +1,15 @@
-import { useEffect } from "react";
-import Navbar from "@/components/features/Navbar";
-import LandingPage from "@/components/features/LandingPage";
-import SponsorsSection from "@/components/Sponsors/SponsorsSection";
-import FaqsSection from "@/components/features/FaqsSection";
-import FooterPage from "@/components/features/FooterPage";
-import About from "@/components/features/About";
+import React, { useEffect } from "react";
+import Navbar from "@/components/features/Navbar.tsx";
+import LandingPage from "@/components/features/LandingPage.tsx";
+import SponsorsSection from "@/components/Sponsors/SponsorsSection.tsx";
+import FaqsSection from "@/components/features/FaqsSection.tsx";
+import FooterPage from "@/components/features/FooterPage.tsx";
+import About from "@/components/features/About.tsx";
 import backgroundImage from "@/assets/landing-page-image.png";
-import Location from "@/components/features/Location";
-import Highlights from "@/components/features/Highlights";
-import HackatonKit from "./components/features/HackatonKit";
-import JoinUs from "./components/features/JoinUs";
+import Location from "@/components/features/Location.tsx";
+import Highlights from "@/components/features/Highlights.tsx";
+import HackatonKit from "./components/features/HackatonKit.tsx";
+import JoinUs from "./components/features/JoinUs.tsx";
 
 function App() {
   useEffect(() => {

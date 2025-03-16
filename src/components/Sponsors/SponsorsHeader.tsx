@@ -1,5 +1,6 @@
 import RenderedV3Svg2 from "/svgs/RENDERED_V3 2.svg";
 import RenderedV3Svg1 from "/svgs/RENDERED_V3 1.svg";
+import React from "react";
 
 export function SponsorsHeader() {
   return (
