@@ -6,7 +6,7 @@ const Location = () => {
       <div className="relative w-full flex justify-center items-center flex-col">
         <div className="absolute z-30 left-0 bottom-[10%] lg:bottom-0 w-[30%] max-w-[150px] md:max-w-[200px] lg:max-w-[300px] 2xl:max-w-[400px]">
           <img
-            src="/src/assets/lightning-1.png"
+            src="/images/lightning-1.png"
             alt="Left Lightning"
             className="w-full"
           />
@@ -14,7 +14,7 @@ const Location = () => {
 
         <div className="absolute z-30 right-0 bottom-[10%] lg:bottom-0 w-[30%] max-w-[150px] md:max-w-[200px] lg:max-w-[300px] 2xl:max-w-[400px]">
           <img
-            src="/src/assets/lightning-2.png"
+            src="/images/lightning-2.png"
             alt="Right Lightning"
             className="w-full"
           />
@@ -39,7 +39,7 @@ const Location = () => {
             ></iframe>
             <div className="p-3  w-full flex justify-center items-center">
               <img
-                src="src\assets\Sparkfest-Screen.png"
+                src="/images/Sparkfest-Screen.png"
                 alt="Sparkfest Logo"
                 className="w-full max-w-[100px] sm:max-w-[150px]"
               ></img>
@@ -48,7 +48,7 @@ const Location = () => {
 
           <div className="-mt-[10%] z-10">
             <img
-              src="src\assets\Joystick-Buttons.png"
+              src="/images/Joystick-Buttons.png"
               alt="Joystick Buttons"
               className="w-full"
             ></img>
