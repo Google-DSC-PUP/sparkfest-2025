@@ -4,17 +4,17 @@ const Location = () => {
   return (
     <div className="w-full min-h-[940px] flex items-center justify-center ">
       <div className="relative w-full flex justify-center items-center flex-col">
-        <div className="absolute z-20 left-0 bottom-35 lg:bottom-0">
+        <div className="absolute z-30 left-0 bottom-35 lg:bottom-0">
           <img
-            src="/src/assets/lightning-1 1.svg"
+            src="/src/assets/lightning-1.png"
             alt="Left Lightning"
             className="w-40 md:w-60 lg:w-150 z-20"
           />
         </div>
 
-        <div className="absolute z-20 right-0 bottom-35  lg:bottom-0">
+        <div className="absolute z-30 right-0 bottom-35  lg:bottom-0">
           <img
-            src="/src/assets/lightning-3 1.svg"
+            src="/src/assets/lightning-2.png"
             alt="Right Lightning"
             className="w-40 md:w-60 lg:w-150 "
           />
@@ -30,7 +30,7 @@ const Location = () => {
           WHERE'S THE FUN HAPPENING?
         </h1>
 
-        <div className="z-30 flex flex-col items-center justify-center max-w-[1200px] p-2">
+        <div className="z-20 flex flex-col items-center justify-center max-w-[1200px] p-2">
           <div className="relative bg-black p-6 w-full max-w-[81%] rounded-t-lg">
             <iframe
               title="Location"
@@ -46,7 +46,7 @@ const Location = () => {
             </div>
           </div>
 
-          <div className="-mt-14 sm:-mt-16 md:-mt-18  z-10">
+          <div className="-mt-[10%] z-10">
             <img
               src="src\assets\Joystick-Buttons.png"
               alt="Joystick Buttons"
@@ -60,10 +60,7 @@ const Location = () => {
             </div>
           </div>
         </div>
-
       </div>
-
-
     </div>
   );
 };
