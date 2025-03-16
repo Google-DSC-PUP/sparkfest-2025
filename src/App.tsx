@@ -8,6 +8,7 @@ import About from "@/components/features/About";
 import backgroundImage from "@/assets/landing-page-image.png";
 import Location from "@/components/features/Location";
 import Highlights from "@/components/features/Highlights";
+import JoinUs from "./components/features/JoinUs";
 
 
 function App() {
@@ -53,16 +54,19 @@ function App() {
       <section id="location">
           <Location />
       </section>
-      <section id="highlights">
+      {/* <section id="highlights">
           <Highlights />
-      </section>
+      </section> */}
       <section id="sponsors">
         <SponsorsSection />  
+      </section>
+      <section>
+        <JoinUs />
       </section>
       <section id="faqs">
         <FaqsSection />
       </section>
-      <FooterPage />
+      {/* <FooterPage /> */}
     </div>
   );
 }
