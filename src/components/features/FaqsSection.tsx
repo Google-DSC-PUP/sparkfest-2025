@@ -115,20 +115,22 @@ function FaqsSection() {
             <div className="rounded-lg p-px bg-white bg-gradient-to-b from-halftone-blue to-shadow-blue">
               <AccordionItem
                 value={`item-${index}`}
-                className={`rounded-lg p-5 ${
+                className={`rounded-lg ${
                   activeIndices.includes(index) ||
                   closingIndices.includes(index)
-                    ? "bg-shadow-blue space-y-4"
+                    ? "bg-shadow-blue"
                     : "bg-blue-500"
                 } transition-all duration-200`}
               >
                 <AccordionTrigger
-                  className="cursor-pointer"
+                  className="cursor-pointer p-5 hover:underline"
                   onClick={() => handleToggle(index)}
                 >
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent>{faq.answer}</AccordionContent>
+                <AccordionContent className="p-3 pt-0">
+                  {faq.answer}
+                </AccordionContent>
               </AccordionItem>
             </div>
           </Accordion>
