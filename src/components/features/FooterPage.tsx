@@ -47,7 +47,10 @@ const FooterPage = () => {
                 />
               </div>
             </a>
-            <a href="https://www.facebook.com/gdg.pupmnl" target="_blank">
+            <a
+              href="https://www.linkedin.com/company/gdgoc-pup/l"
+              target="_blank"
+            >
               <div className="bg-grey-100 p-2 rounded-sm cursor-pointer transition-shadow duration-200 hover:shadow-[0_0_8px_#FFFFFF]">
                 <FaLinkedinIn
                   color="#1A3A68"
@@ -55,7 +58,7 @@ const FooterPage = () => {
                 />
               </div>
             </a>
-            <a href="https://www.facebook.com/gdg.pupmnl" target="_blank">
+            <a href="https://www.instagram.com/gdg.pupmnl/" target="_blank">
               <div className="bg-grey-100 p-2 rounded-sm cursor-pointer transition-shadow duration-200 hover:shadow-[0_0_8px_#FFFFFF]">
                 <RiInstagramFill
                   color="#1A3A68"
@@ -63,7 +66,7 @@ const FooterPage = () => {
                 />
               </div>
             </a>
-            <a href="https://www.facebook.com/gdg.pupmnl" target="_blank">
+            <a href="https://www.tiktok.com/@gdg.pupmnl" target="_blank">
               <div className="bg-grey-100 p-2 rounded-sm cursor-pointer transition-shadow duration-200 hover:shadow-[0_0_8px_#FFFFFF]">
                 <FaTiktok color="#1A3A68" className="w-4 h-4 sm:w-6 sm:h-6" />
               </div>
