@@ -1,4 +1,5 @@
 import SparkfestLogo from "@/assets/footer-logo.png";
+import FooterMessage from "@/assets/footer-message.png";
 import GDGLogo from "@/assets/gdg-logo.png";
 import { FaFacebookF, FaLinkedinIn, FaTiktok } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
@@ -18,9 +19,13 @@ const FooterPage = () => {
           opacity: "0.8",
         }}
       ></div>
-      <h1 className="header hidden text-center lg:block text-grey-100 z-10">
-        SEE YOU THERE!
-      </h1>
+      <div className="my-2 sm:my-4 md:my-6">
+        <img
+          className="w-full max-w-[300px] sm:max-w-[500px] md:max-w-[700px] lg:md:max-w-[900px] "
+          src={FooterMessage}
+          alt="FooterMessage"
+        />
+      </div>
 
       <div className="flex flex-col-reverse gap-6 sm:flex-row justify-around items-center w-full p-4 z-10">
         {/* Left Side */}
