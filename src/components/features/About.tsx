@@ -1,8 +1,8 @@
 import React from "react";
-import { SDGData } from "@/data/dataLoader";
+import { SDGData } from "../../data/dataLoader.ts";
 import sparkyLogo from "/images/rendered_v3.png";
-import SdgBox from "../ui/sdg-box";
-import SDGsGrid from "../ui/sdg-grid";
+import SdgBox from "../ui/sdg-box.tsx";
+import SDGsGrid from "../ui/sdg-grid.tsx";
 
 const About = () => {
   return (

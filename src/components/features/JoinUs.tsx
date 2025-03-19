@@ -1,18 +1,18 @@
-import React from "react";
-import RBlockSet from "/images/R-blockset.png";
-import LBlockSet from "/images/L-blockset.png";
-import TBlockSet from "/images/T-blockset.png";
-import BBlockSet from "/images/B-blockset.png";
-import { Particles } from "../magicui/particles";
-import PixelButton from "../ui/pixelated-btn";
+import React from 'react'
+import RBlockSet from '/images/R-blockset.png'
+import LBlockSet from '/images/L-blockset.png'
+import TBlockSet from '/images/T-blockset.png'
+import BBlockSet from '/images/B-blockset.png'
+import { Particles } from '../magicui/particles.tsx'
+import PixelButton from '../ui/pixelated-btn.tsx'
 
 const JoinUs = () => {
   return (
-    <div className='relative flex justify-center items-center w-full h-full md:max-h-max lg:max-h-[967px] '>
+    <div className='relative flex justify-center items-center w-full h-[967px] md:min-h-max lg:max-h-[967px] '>
         {/* Small particles */}
         <Particles
             className="absolute inset-0 -z-10"
-            quantity={80}  // Fewer particles
+            quantity={1400}  // Fewer particles
             staticity={30}  // Slower movement
             ease={10}  // Smooth animation
             size={1.5}  // Larger particles for better visibility
@@ -21,7 +21,7 @@ const JoinUs = () => {
         {/* Medium particles */}
         <Particles
             className="absolute inset-0 -z-10"
-            quantity={100}  // Fewer particles
+            quantity={200}  // Fewer particles
             staticity={30}  // Slower movement
             ease={10}  // Smooth animation
             size={0.8}  // Larger particles for better visibility
@@ -30,7 +30,7 @@ const JoinUs = () => {
         {/* Large particles */}
         <Particles
             className="absolute inset-0 z-10"
-            quantity={30}  // Fewer but larger
+            quantity={60}  // Fewer but larger
             staticity={50}  // Slower movement
             ease={20}  // Smooth animation
             size={5}  // Bigger particles
@@ -44,22 +44,7 @@ const JoinUs = () => {
             <img src={LBlockSet} alt="" className='opacity-80' />
         </div>
 
-      {/* Large particles */}
-      <Particles
-        className="absolute inset-0"
-        quantity={30} // Fewer but larger
-        staticity={50} // Slower movement
-        ease={20} // Smooth animation
-        size={5} // Bigger particles
-      />
 
-      {/* Image - Desktop */}
-      <div className="hidden lg:block absolute right-0">
-        <img src={RBlockSet} alt="" className="opacity-80" />
-      </div>
-      <div className="hidden lg:block absolute left-0">
-        <img src={LBlockSet} alt="" className="opacity-80" />
-      </div>
 
         {/* banner */}
         <div className='z-20'>
@@ -81,13 +66,14 @@ const JoinUs = () => {
             <div className='z-20 flex justify-center mt-8 lg:mt-12'>
                 <PixelButton color='#4CAF50' classname='w-60'>Register now</PixelButton>
             </div>
-        {/* bottom-blockset mobile */}
-        <div className="block lg:hidden mt-16 mb-20">
-          <img src={BBlockSet} alt="" className="opacity-80 w-full p-4" />
-        </div>
+
+            {/* bottom-blockset mobile */}
+            <div className='block lg:hidden mt-16 mb-20'>
+                <img src={BBlockSet} alt="" className='opacity-80 w-full p-4' />
+            </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default JoinUs;
+export default JoinUs

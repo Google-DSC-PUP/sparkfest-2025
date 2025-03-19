@@ -1,5 +1,5 @@
 import React from "react";
-import SVGComponent from "../ui/SVGComp";
+import SVGComponent from "../ui/SVGComp.tsx";
 import sparkyhead from "../../assets/sparkyhead.png";
 
 const cards = [

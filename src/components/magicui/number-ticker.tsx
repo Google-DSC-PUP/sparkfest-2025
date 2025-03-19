@@ -3,7 +3,8 @@
 import { useInView, useMotionValue, useSpring } from "motion/react";
 import { ComponentPropsWithoutRef, useEffect, useRef } from "react";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils.ts";
+import React from "react";
 
 interface NumberTickerProps extends ComponentPropsWithoutRef<"span"> {
   value: number;

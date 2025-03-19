@@ -1,4 +1,5 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils.ts";
+import React from "react";
 
 interface SponsorCardProps {
   name: string;

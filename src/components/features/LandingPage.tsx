@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
-import { RetroGrid } from "@/components/magicui/retro-grid";
-import { NumberTicker } from "@/components/magicui/number-ticker";
+import { RetroGrid } from "@/components/magicui/retro-grid.tsx";
+import { NumberTicker } from "@/components/magicui/number-ticker.tsx";
 import SparkyImage from "@/assets/sparky-image.png";
 import LandingPageImage from "@/assets/landing-page-image.png";
+import React from "react";
 
 export default function LandingPage() {
   const targetDate = new Date("2025-04-10");
@@ -11,7 +12,7 @@ export default function LandingPage() {
   useEffect(() => {
     const calculateDaysRemaining = () => {
       const today = new Date();
-      const timeDifference = targetDate - today;
+      const timeDifference = targetDate.getTime() - today.getTime();
       const days = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
       setDaysRemaining(days);
     };
