@@ -27,9 +27,9 @@ const FooterPage = () => {
         />
       </div>
 
-      <div className="flex flex-col-reverse gap-6 sm:flex-row justify-around items-center w-full p-4 z-10">
+      <div className="flex flex-col-reverse gap-6 sm:flex-row justify-around items-start w-full p-6 z-10">
         {/* Left Side */}
-        <div className="flex flex-col items-center sm:items-start gap-6">
+        <div className="flex flex-col items-start gap-6">
           <img
             className="max-w-[200px] sm:max-w-[250px] md:max-w-[300px]"
             src={SparkfestLogo}
@@ -80,7 +80,7 @@ const FooterPage = () => {
         </div>
 
         {/* Right Side */}
-        <div className="flex flex-row justify-around sm:justify-start sm:gap-8 w-full sm:w-fit">
+        <div className="flex flex-row justify-start gap-12 sm:justify-start w-full sm:w-fit">
           <div className="text-grey-100 flex flex-col gap-4">
             <a href="#" className="cursor-pointer">
               <p className="text-[19px] font-mono font-bold">Sparkfest</p>
