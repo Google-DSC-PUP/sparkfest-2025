@@ -18,15 +18,15 @@ export function SponsorCard ({ name, img, category }: SponsorCardProps) {
 
   switch (category) {
     case "platinum":
-      className = "w-[360px] h-[160px] rounded-4xl";
+      className = "w-[180px] h-[80px] rounded-[18.66px]";
       break;
     
     case "gold":
-      className = "w-[270px] h-[120px] rounded-[28px]";
+      className = "w-[158px] h-[70px] rounded-[16.33px]";
       break;
     
     case "silver":
-      className = "w-[180px] h-[80px] rounded-[16px]";
+      className = "w-[135px] h-[60px] rounded-[14px]";
       break;
     default:
       break;
@@ -42,8 +42,8 @@ export function SponsorCard ({ name, img, category }: SponsorCardProps) {
       )}
       // onClick={() => redirect(url)}
     >
-      <div className="flex items center justify-center">
-        <img className="w-32 h-auto" alt={`${name} logo`} src={img} />
+      <div className="flex items center justify-center w-full h-full">
+        <img className="w-full h-auto object-contain" alt={`${name} logo`} src={img} />
       </div>
     </figure>
   );

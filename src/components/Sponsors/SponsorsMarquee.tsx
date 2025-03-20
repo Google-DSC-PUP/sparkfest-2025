@@ -6,7 +6,7 @@ import React from "react";
 
 export function SponsorsMarquee() {
   return (
-    <div className="relative flex gap-10 w-[350px] h-[718px] sm:w-[90vw] sm:h-full flex-col items-center justify-center overflow-hidden border-grey-100 border-2 rounded-4xl sm:rounded-4xl py-4 bg-gradient-to-l from-[#122B4F] via-[#1A3A68] to-[#122B4F]">
+    <div className="relative flex gap-4 w-[350px] h-[477px] sm:w-[90vw] sm:h-full flex-col items-center justify-center overflow-hidden border-grey-100 border-2 rounded-4xl sm:rounded-4xl py-4 bg-gradient-to-l from-[#122B4F] via-[#1A3A68] to-[#122B4F]">
       
       <SponsorLabel label="Platinum Sponsors" />
       <Marquee pauseOnHover className="[--duration:20s]" >
