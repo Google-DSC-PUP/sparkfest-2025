@@ -18,15 +18,15 @@ export function SponsorCard ({ name, img, category }: SponsorCardProps) {
 
   switch (category) {
     case "platinum":
-      className = "w-[180px] h-[80px] rounded-[18.66px]";
+      className = "w-[180px] h-[80px] rounded-[18.66px] sm:w-[360px] sm:h-[160px] sm:rounded-4xl";
       break;
     
     case "gold":
-      className = "w-[158px] h-[70px] rounded-[16.33px]";
+      className = "w-[158px] h-[70px] rounded-[16.33px] sm:w-[270px] sm:h-[120px] sm:rounded-[28px]";
       break;
     
     case "silver":
-      className = "w-[135px] h-[60px] rounded-[14px]";
+      className = "w-[135px] h-[60px] rounded-[14px] sm:w-[180px] sm:h-[80px] sm:rounded-[18.66px]";
       break;
     default:
       break;
