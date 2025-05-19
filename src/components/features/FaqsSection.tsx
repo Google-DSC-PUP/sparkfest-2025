@@ -14,46 +14,46 @@ function FaqsSection() {
   const [closingIndices, setClosingIndices] = useState<number[]>([]); // State to keep track of closing indices
   const timeoutRefs = useRef<{ [key: number]: NodeJS.Timeout }>({}); // Ref to store timeouts for each index
 
-  const faqs = [
+const faqs = [
     {
-      question: "Is it accessible?",
-      answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+      question: "When is Sparkfest 2025?",
+      answer: "Sparkfest 2025 starts on May 31, 2025. Online sessions will run from May 31 to June 6, with the final Pitching Day on June 7 at The Globe Tower.",
     },
     {
-      question: "Is it accessible?",
-      answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+      question: "Where will Sparkfest 2025 be held?",
+      answer: "The online sessions will be conducted virtually from May 31 to June 6, 2025. The Pitching Day will take place at The Globe Tower on June 7, 2025.",
     },
     {
-      question: "Is it accessible?",
-      answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+      question: "Who can participate in Sparkfest 2025?",
+      answer: "Sparkfest 2025 is open to all university students with an interest in developing innovative tech solutions aligned with the Sustainable Development Goals (SDGs).",
     },
     {
-      question: "Is it accessible?",
-      answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+      question: "Do I need to have a team to register?",
+      answer: "You can register individually or as a team. Individual participants will have the opportunity to form teams during the initial networking sessions.",
     },
     {
-      question: "Is it accessible?",
-      answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+      question: "What are the prizes for the winning teams?",
+      answer: "Winners will receive cash prizes, Google swag, mentorship opportunities with industry experts, and potential internship opportunities with our sponsor companies.",
     },
     {
-      question: "Is it accessible?",
-      answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+      question: "Is there a registration fee?",
+      answer: "No, participation in Sparkfest 2025 is completely free of charge. We believe in making innovation accessible to all students.",
     },
     {
-      question: "Is it accessible?",
-      answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+      question: "What resources will be provided during the hackathon?",
+      answer: "Participants will have access to workshops, mentorship sessions, technical resources, Hackathon Kit with design assets, and Google Cloud credits for their projects.",
     },
     {
-      question: "Is it accessible?",
-      answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+      question: "How will the projects be evaluated?",
+      answer: "Projects will be evaluated based on innovation, technical implementation, alignment with SDGs, presentation quality, and potential impact of the solution.",
     },
     {
-      question: "Is it accessible?",
-      answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+      question: "Will transportation be provided for the Pitching Day?",
+      answer: "We will not be providing transportation. Participants are responsible for their own transportation to The Globe Tower for the Pitching Day on June 7.",
     },
     {
-      question: "Is it accessible?",
-      answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+      question: "How can I prepare for Sparkfest 2025?",
+      answer: "We recommend familiarizing yourself with the SDGs, brushing up on your coding skills, exploring potential problem statements, and downloading our Hackathon Kit which contains helpful resources.",
     },
   ];
 

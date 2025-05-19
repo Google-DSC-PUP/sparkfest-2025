@@ -8,7 +8,7 @@ import PixelButton from '../ui/pixelated-btn.tsx'
 
 const JoinUs = () => {
   return (
-    <div className='relative flex justify-center items-center w-full h-[967px] md:min-h-max lg:max-h-[967px] '>
+    <div id='join' className='relative flex justify-center items-center w-full h-[967px] md:min-h-max lg:max-h-[967px] '>
         {/* Small particles */}
         <Particles
             className="absolute inset-0 -z-10"
@@ -54,7 +54,7 @@ const JoinUs = () => {
             </div>
 
             <div className='z-20 header text-center text-grey-100' style={{textShadow: "0px 4px 4px #A84038"}}>
-                April {'  '}
+                May 31 {'  '}
                 <span className="text-yellow">2</span>
                     <span className='text-blue'>0</span>
                     <span className='text-green'>2</span>
@@ -64,7 +64,11 @@ const JoinUs = () => {
                 Join ipsum dolor sit amet!
             </div>
             <div className='z-20 flex justify-center mt-8 lg:mt-12'>
-                <PixelButton color='#4CAF50' classname='w-60'>Register now</PixelButton>
+                <PixelButton color='#4CAF50' classname='w-60'>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfafw4QAz9ICVlQ2zXej7995vgQT5S_ldLupVTG_C0RDh1Dpw/viewform" target="_blank" rel="noopener noreferrer">
+                        Register now
+                    </a>
+                </PixelButton>
             </div>
 
             {/* bottom-blockset mobile */}
