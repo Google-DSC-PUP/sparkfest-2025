@@ -450,3 +450,29 @@
   margin: -10px;
 }
 
+@keyframes glitch {
+  0% {
+    text-shadow: 2px 0 red, -2px 0 cyan;
+  }
+  20% {
+    text-shadow: -2px 0 red, 2px 0 cyan;
+  }
+  40% {
+    text-shadow: 2px 0 red, -2px 0 cyan;
+  }
+  60% {
+    text-shadow: -2px 0 red, 2px 0 cyan;
+  }
+  80% {
+    text-shadow: 2px 0 red, -2px 0 cyan;
+  }
+  100% {
+    text-shadow: -2px 0 red, 2px 0 cyan;
+  }
+}
+
+.glitch {
+  animation: glitch 1.5s infinite;
+  color: white;
+  position: relative;
+}

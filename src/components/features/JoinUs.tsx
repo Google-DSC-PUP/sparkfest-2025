@@ -12,28 +12,28 @@ const JoinUs = () => {
         {/* Small particles */}
         <Particles
             className="absolute inset-0 -z-10"
-            quantity={1400}  // Fewer particles
-            staticity={30}  // Slower movement
-            ease={10}  // Smooth animation
-            size={1.5}  // Larger particles for better visibility
+            quantity={1400}
+            staticity={30}
+            ease={10}
+            size={1.5}
         />
         
         {/* Medium particles */}
         <Particles
             className="absolute inset-0 -z-10"
-            quantity={200}  // Fewer particles
-            staticity={30}  // Slower movement
-            ease={10}  // Smooth animation
-            size={0.8}  // Larger particles for better visibility
+            quantity={200}
+            staticity={30}
+            ease={10}
+            size={0.8}
         />
 
         {/* Large particles */}
         <Particles
             className="absolute inset-0 z-10"
-            quantity={60}  // Fewer but larger
-            staticity={50}  // Slower movement
-            ease={20}  // Smooth animation
-            size={5}  // Bigger particles
+            quantity={60}
+            staticity={50}
+            ease={20}
+            size={5}
         />
 
         {/* Image - Desktop */}
@@ -44,28 +44,39 @@ const JoinUs = () => {
             <img src={LBlockSet} alt="" className='opacity-80' />
         </div>
 
-
-
         {/* banner */}
-        <div className='z-20'>
+        <div className='z-20 px-4 max-w-xl'>
             {/* top-blockset mobile */}
             <div className='block lg:hidden mb-16 mt-20'>
                 <img src={TBlockSet} alt="" className='opacity-80 w-full p-4' />
             </div>
 
-            <div className='z-20 header text-center text-grey-100' style={{textShadow: "0px 4px 4px #A84038"}}>
-                May 31 {'  '}
-                <span className="text-yellow">2</span>
-                    <span className='text-blue'>0</span>
-                    <span className='text-green'>2</span>
-                    <span className='text-red'>5</span>
+            {/* Date Info */}
+            <div
+              className='z-20 header text-center text-grey-100 leading-tight'
+              style={{ textShadow: "0px 4px 4px #A84038", fontSize: '2.5rem' }}
+            >
+              May 31 - June 6 <br />
+              <span className="text-yellow">Online / Asynchronous Sessions</span>
             </div>
-            <div className='z-20 text-center title2 mt-4 lg:mt-12 text-white'>
-                Step in. Spark change. Shape tomorrow
+
+            <div
+              className='z-20 header text-center text-grey-100 mt-4 mb-6'
+              style={{ textShadow: "0px 4px 4px #A84038", fontSize: '2rem' }}
+            >
+              June 7 <br />
+              <span className="text-blue">Onsite Pitching Day @ Globe Tower</span>
             </div>
+            <div
+            className='z-20 text-center title2 mt-4 lg:mt-12 glitch'
+            style={{ fontSize: '1.5rem' }}
+            >
+            Step in. Spark change. Shape tomorrow.
+            </div>
+
             <div className='z-20 flex justify-center mt-8 lg:mt-12'>
                 <PixelButton color='#4CAF50' classname='w-60'>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfafw4QAz9ICVlQ2zXej7995vgQT5S_ldLupVTG_C0RDh1Dpw/viewform" target="_blank" rel="noopener noreferrer">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfafw4QAz9ICVlQ2zXej7995vgQT5S_ldLupVTG_C0RDh1Dpw/viewform" target="_blank" rel="noopener noreferrer" className='block w-full text-center'>
                         Register now
                     </a>
                 </PixelButton>
@@ -75,7 +86,7 @@ const JoinUs = () => {
             <div className='block lg:hidden mt-16 mb-20'>
                 <img src={BBlockSet} alt="" className='opacity-80 w-full p-4' />
             </div>
-      </div>
+        </div>
     </div>
   )
 }
