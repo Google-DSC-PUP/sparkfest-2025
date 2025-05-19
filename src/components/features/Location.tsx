@@ -34,7 +34,7 @@ const Location = () => {
           <div className="relative bg-black p-6 w-full max-w-[81%] rounded-t-lg">
             <iframe
               title="Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.045749749116!2d121.0080721764348!3d14.596468977175125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9dd56183c45%3A0x9f3cd2bc8713cb09!2sPUP%20Claro%20M.%20Recto%20Hall!5e0!3m2!1sen!2sph!4v1741669752681!5m2!1sen!2sph"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61787.57073609875!2d120.94894334863284!3d14.557816799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c948441bbc6b%3A0x36a4dead743a27cb!2sThe%20Globe%20Tower!5e0!3m2!1sen!2sph!4v1747651898750!5m2!1sen!2sph"
               className="w-full aspect-[16/9] min-h-[250px] max-h-[500px]"
             ></iframe>
             <div className="p-3  w-full flex justify-center items-center">
@@ -53,9 +53,9 @@ const Location = () => {
               className="w-full"
             ></img>
             <div className="bg-black w-full text-white py-6 px-2 flex flex-col justify-center items-center">
-              <p className="body1">Claro M. Recto Hall</p>
+              <p className="body1">2608 7th Ave, Taguig, 1634 Metro Manila</p>
               <p className="title2 text-center">
-                Polytechnic University of the Philippines
+                The Globe Tower
               </p>
             </div>
           </div>
