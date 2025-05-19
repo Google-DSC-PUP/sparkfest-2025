@@ -6,7 +6,7 @@ import LandingPageImage from "@/assets/landing-page-image.png";
 import React from "react";
 
 export default function LandingPage() {
-  const targetDate = new Date("2025-04-10");
+  const targetDate = new Date("2025-05-31");
   const [daysRemaining, setDaysRemaining] = useState(0);
 
   useEffect(() => {
