@@ -61,7 +61,7 @@ const JoinUs = () => {
                     <span className='text-red'>5</span>
             </div>
             <div className='z-20 text-center title2 mt-4 lg:mt-12 text-white'>
-                Join ipsum dolor sit amet!
+                Step in. Spark change. Shape tomorrow
             </div>
             <div className='z-20 flex justify-center mt-8 lg:mt-12'>
                 <PixelButton color='#4CAF50' classname='w-60'>
