@@ -4,42 +4,43 @@ import sparkyhead from "../../assets/sparkyhead.png";
 
 const cards = [
   {
-    title: "Innovation Challenge",
+    title: "Sustainability Challenges",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Tackle real-world issues in Education, Health, Environment, and Business through tech-driven solutions for a better future.",
     bgColor: "bg-blue-500",
     bdLight: "#57CAFF",
     bdDark: "#446FB8",
     bgMain: "#4285F4",
   },
   {
-    title: "Mentorship",
+    title: "Expert Mentorship",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Receive guidance from industry professionals and sustainability experts to bring your innovative ideas to life.",
     bgColor: "bg-blue-500",
     bdLight: "#5CDB6D",
     bdDark: "#2E7040",
     bgMain: "#34A853",
   },
   {
-    title: "Speaker Sessions",
+    title: "Inspiring Speaker Sessions",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Learn from thought leaders on urban sustainability, social justice, and emerging technologies shaping the future.",
     bgColor: "bg-blue-500",
     bdLight: "#FFD427",
     bdDark: "#B28012",
     bgMain: "#F9AB00",
   },
   {
-    title: "Networking",
+    title: "Collaborative Networking",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Connect with passionate students, professionals, and mentors to build lasting relationships and partnerships.",
     bgColor: "bg-blue-500",
     bdLight: "#FF7DAF",
     bdDark: "#A84038",
     bgMain: "#EA4335",
   },
 ];
+
 
 const App: React.FC = () => {
   return (
