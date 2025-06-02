@@ -8,7 +8,7 @@ import About from "@/components/features/About.tsx";
 import backgroundImage from "@/assets/landing-page-image.png";
 import Location from "@/components/features/Location.tsx";
 import Highlights from "@/components/features/Highlights.tsx";
-import HackatonKit from "./components/features/HackatonKit.tsx";
+import VenueSponsorSection from "./components/Venue Sponsor/VenueSponsorSection.tsx";
 import JoinUs from "./components/features/JoinUs.tsx";
 
 function App() {
@@ -57,12 +57,12 @@ function App() {
       <section id="highlights" className="navbar-spacing">
         <Highlights />
       </section>
+      <section id="hackaton-kit" className="navbar-spacing">
+        <VenueSponsorSection />
+      </section>
       <section id="sponsors" className="navbar-spacing">
         <SponsorsSection />
       </section>
-      {/* <section id="hackaton-kit">
-        <HackatonKit />
-      </section> */}
       <section id="join-us">
         <JoinUs />
       </section>
