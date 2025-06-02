@@ -49,7 +49,7 @@ export default function LandingPage() {
             >
               <NumberTicker
                 className="text-white"
-                value={parseInt(daysArray[0])}
+                value={0}
               />
             </div>
 
@@ -59,7 +59,7 @@ export default function LandingPage() {
             >
               <NumberTicker
                 className="text-white"
-                value={parseInt(daysArray[1])}
+                value={0}
               />
             </div>
           </div>
