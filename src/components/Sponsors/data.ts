@@ -1,11 +1,9 @@
-import PlatinumSponsor1 from "@/assets/Platinum/GDG-OC-Evergreen-Centered-White 2.svg";
-import PlatinumSponsor2 from "@/assets/Platinum/GDG-OC-Evergreen-Centered-White 2 (1).svg";
-import GoldSponsor1 from "@/assets/Gold/GDG-OC-Evergreen-Centered-White 2.svg";
-import GoldSponsor2 from "@/assets/Gold/GDG-OC-Evergreen-Centered-White 2 (2).svg";
-import SilverSponsor1 from "@/assets/Silver/GDG-OC-Evergreen-Centered-White 2.svg";
-import SilverSponsor2 from "@/assets/Silver/GDG-OC-Evergreen-Centered-White 2 (1).svg";
-
-// Dummy data for sponsors
+import PlatinumSponsor1 from "../../assets/Platinum/FlowerStore.ph.jpg";
+import PlatinumSponsor2 from "../../assets/Platinum/Potico.ph.jpg";
+import BronzeSponsor1 from "../../assets/Bronze/HomeRoom Co-Working and Study Longue.jpg";
+import BronzeSponsor2 from "../../assets/Bronze/Mind Zone España.jpg";
+import SilverSponsor1 from "../../assets/Silver/AcadArena Educ Full White.png";
+import SilverSponsor2 from "../../assets/Silver/POCKY.png";
 
 interface Sponsor {
   name: string;
@@ -31,22 +29,22 @@ export const platinumSponsors: Sponsor[] = [
   }
 ];
 
-export const goldSponsors: Sponsor[] = [
+export const bronzeSponsors: Sponsor[] = [
   {
-    name: "Gold Sponsor 1",
-    img: GoldSponsor1
+    name: "Bronze Sponsor 1",
+    img: BronzeSponsor1
   },
   {
-    name: "Gold Sponsor 2",
-    img: GoldSponsor2,
+    name: "Bronze Sponsor 2",
+    img: BronzeSponsor2,
   },
   {
-    name: "Gold Sponsor 3",
-    img: GoldSponsor1,
+    name: "Bronze Sponsor 3",
+    img: BronzeSponsor1,
   },
   {
-    name: "Gold Sponsor 4",
-    img: GoldSponsor2,
+    name: "Bronze Sponsor 4",
+    img: BronzeSponsor2,
   }
 ];
 

@@ -1,5 +1,5 @@
 import { Marquee } from "@/components/magicui/marquee.tsx";
-import { platinumSponsors, goldSponsors, silverSponsors } from "./data.ts"
+import { platinumSponsors, bronzeSponsors, silverSponsors } from "./data.ts"
 import { SponsorLabel } from "./SponsorLabel.tsx";
 import { SponsorCard } from "./SponsorCard.tsx";
 import React from "react";
@@ -7,7 +7,7 @@ import React from "react";
 export function SponsorsMarquee() {
   return (
     <div className="relative flex gap-2 w-[350px] h-[477px] sm:w-[90vw] sm:h-full flex-col items-center justify-center overflow-hidden border-grey-100 border-2 rounded-4xl sm:rounded-4xl py-4 bg-gradient-to-l from-[#122B4F] via-[#1A3A68] to-[#122B4F]">
-      
+
       <SponsorLabel label="Platinum Sponsors" />
       <Marquee pauseOnHover className="[--duration:20s]" >
         {platinumSponsors.map((review) => (
@@ -15,14 +15,14 @@ export function SponsorsMarquee() {
         ))}
       </Marquee>
 
-      <SponsorLabel label="Gold Sponsors" />
+      <SponsorLabel label="Silver Sponsors" />
       <Marquee reverse pauseOnHover className="[--duration:20s]" >
-        {goldSponsors.map((review) => (
+        {bronzeSponsors.map((review) => (
           <SponsorCard key={review.name} {...review} category="gold" />
         ))}
       </Marquee>
 
-      <SponsorLabel label="Silver Sponsors" />
+      <SponsorLabel label="Bronze Sponsors" />
       <Marquee pauseOnHover className="[--duration:20s]" >
         {silverSponsors.map((review) => (
           <SponsorCard key={review.name} {...review} category="silver" />
